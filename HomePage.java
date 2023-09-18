@@ -155,7 +155,7 @@ public class AccountRegistrationPage extends BasePage {
 		}
 }
 
-Step:4 PageObjects testBase -- BaseClass.java Class
+Step:4 testBase Package-- BaseClass.java Class
 ========================================================================================================
 package testBase;
 
@@ -216,7 +216,7 @@ public class BaseClass {
 	}
 }
 
-Step:5 PageObjects testCases -- TC_001_AccountRegistrationTest.java Class
+Step:5 testCases Package-- TC_001_AccountRegistrationTest.java Class
 ========================================================================================================
 package testCases;
 
