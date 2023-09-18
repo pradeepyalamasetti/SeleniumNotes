@@ -1,4 +1,21 @@
+Step:1 :PageObjects Package -- BagePage.java Class
+========================================================================================================
+package pageObjects;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+public class BasePage {
+
+	 WebDriver driver;
+	    
+	   public BasePage(WebDriver driver)
+	     {
+		     this.driver=driver;
+		     PageFactory.initElements(driver,this);
+	     }
+	   	   
+}
 ========================================================================================================
 package pageObjects;
 
