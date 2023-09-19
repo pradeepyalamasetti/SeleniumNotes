@@ -449,6 +449,17 @@ public class TC_001_AccountRegistrationTest extends BaseClass{
 		}
 		logger.info("***  Finished TC_001_AccountRegistrationTest ***");	
 	}
-	
-	
 }
+
+Step:9   Go to testCases package rightClick convent to TestNG xml file 
+========================================================================================================
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OpenCartSuite">
+  <test thread-count="5" name="OpenCartTest">
+	  <parameter name="browser" value="chrome" />    <!-- passing browser parameter to BaseClass ->Setup() -->
+    <classes>
+      <class name="testCases.TC_001_AccountRegistrationTest"/>
+    </classes>
+  </test> <!-- OpenCartTest -->
+</suite> <!-- OpenCartSuite -->
