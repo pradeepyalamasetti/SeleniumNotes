@@ -75,6 +75,18 @@ public class AccountRegistrationPage extends BasePage {
 
 		@FindBy(name = "confirm")
 		WebElement txtConfirmPassword;
+		
+		 //4) Radio btns or Gender
+		@FindBy(xpath = "//label[normalize-space()='Yes']")
+		WebElement radioYesbtn;
+		
+		@FindBy(xpath = "//input[@value='0']")
+		WebElement radioNobtn;
+		
+		//@FindBy(linkText = "Register")
+		//WebElement lnkRegister;
+		
+
 
 		@FindBy(name = "agree")
 		WebElement chkdPolicy;
@@ -113,6 +125,12 @@ public class AccountRegistrationPage extends BasePage {
 		public void setConfirmPassword(String pwd) {
 			txtConfirmPassword.sendKeys(pwd);
 
+		}
+		
+		//4.Select Radiobtns method
+		public void clickRadiobtn() {
+			radioYesbtn.click();
+			System.out.println(radioYesbtn.isSelected());
 		}
 
 		public void setPrivacyPolicy() {
@@ -187,7 +205,7 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		//driver.get("http://localhost/opencart/upload/index.php");
-		driver.get("https://demo.opencart.com/");
+	        driver.get("https://tutorialsninja.com/demo/");
 		
 		driver.manage().window().maximize();
 	}
@@ -252,6 +270,8 @@ public class TC_001_AccountRegistrationTest extends BaseClass{
 		
 		regpage.setPrivacyPolicy();
 		
+		regpage.clickRadiobtn();
+		
 		regpage.clickContinue();
 		
 		String confmsg=regpage.getConfirmationMsg();
@@ -266,4 +286,3 @@ public class TC_001_AccountRegistrationTest extends BaseClass{
 	
 	
 }
-
