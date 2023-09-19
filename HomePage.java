@@ -464,7 +464,7 @@ Step:9   Go to testCases package rightClick convent to TestNG xml file
   </test> <!-- OpenCartTest -->
 </suite> <!-- OpenCartSuite --> 
 
-Step:10  Step:4(repeat)  testBase Package-- BaseClass.java Class  ---- passing Parameters
+Step:10  Step:7(repeat)  testBase Package-- BaseClass.java Class  ---- passing Parameters
 ========================================================================================================
 package testBase;
 
@@ -571,6 +571,105 @@ Step:11   Create Another file in test-output or same project given name of file 
    	     <class name="testCases.TC_001_AccountRegistrationTest"/>
     </classes>
   </test>
-
-
 </suite> 
+
+Step:12   src/test/resources  under Create config.properties 
+========================================================================================================
+appURL=https://tutorialsninja.com/demo/
+email=pavanoltraining@gmail.com
+password=test@123
+
+Step:13  Step:10(repeat)  testBase Package-- BaseClass.java Class  ---- passing config.properties
+========================================================================================================
+package testBase;
+
+import java.time.Duration;
+
+import org.apache.commons.lang3.RandomStringUtils;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+import org.testng.annotations.Parameters;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;  // logging
+
+import java.util.ResourceBundle;
+
+
+public class BaseClass {
+
+	public WebDriver driver;
+	
+	public Logger logger; // for logging
+	
+	public ResourceBundle rb;// to read config.properties
+
+	@BeforeClass
+	@Parameters("browser")   // getting browser parameter from testng.xml
+	public void setup(String br)
+	{
+		logger=LogManager.getLogger(this.getClass());  //logging
+		
+		rb = ResourceBundle.getBundle("config");// Load config.properties
+		
+		/*ChromeOptions options=new ChromeOptions();
+		options.setExperimentalOption("excludeSwitches",new String[] {"enable-automation"});
+		WebDriverManager.chromedriver().setup();
+		driver=new ChromeDriver(options);*/
+		
+		/*WebDriverManager.chromedriver().setup(); // Not required selenium 4.6.0 later versions
+		  driver=new ChromeDriver();*/
+		
+		//launch right browser based on parameter
+		if (br.equals("chrome")) 
+		   {
+			driver = new ChromeDriver();
+		   } 
+		else if (br.equals("edge"))
+		   {
+			driver = new EdgeDriver();
+		   } 
+		else 
+		   {
+			driver = new ChromeDriver();
+		   }
+	
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+		//driver.get("https://tutorialsninja.com/demo/");
+		driver.get(rb.getString("appURL")); // get url from config.properties file
+		driver.manage().window().maximize();
+	}
+	
+	@AfterClass
+	public void tearDown()
+	{
+		//driver.quit();
+	}
+	
+	public String randomeString() {
+		String generatedString = RandomStringUtils.randomAlphabetic(5);
+		return (generatedString);
+	}
+
+	public String randomeNumber() {
+		String generatedString2 = RandomStringUtils.randomNumeric(10);
+		return (generatedString2);
+	}
+	
+	public String randomAlphaNumeric() {
+		String st = RandomStringUtils.randomAlphabetic(4);
+		String num = RandomStringUtils.randomNumeric(3);
+		
+		return (st+"@"+num);
+	}
+}
+
