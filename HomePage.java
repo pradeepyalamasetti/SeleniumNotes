@@ -732,11 +732,14 @@ public class ExtentReportManager implements ITestListener {
 		test.log(Status.FAIL, "Test Failed");
 		test.log(Status.FAIL, result.getThrowable().getMessage());
 
-		try {
-			String imgPath = new BaseClass().captureScreen(result.getName()); ~~~~~~~~~~~~~~~~~~captureScreen
-			test.addScreenCaptureFromPath(imgPath);
-		} catch (IOException e1) {
-			e1.printStackTrace();
+		try 
+		{
+		   String imgPath = new BaseClass().captureScreen(result.getName()); ~~~~~~~~~~~~~~~~~~captureScreen
+		   test.addScreenCaptureFromPath(imgPath);
+		}
+		catch (IOException e1) 
+		{
+		   e1.printStackTrace();
 		}
 	}
 
@@ -956,18 +959,154 @@ public class HomePage extends BasePage {
 	}
 	
 }
+
 Step:18 PageObjects Package -- LoginPage.java Class
 ========================================================================================================
+package pageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+
+public class LoginPage extends BasePage {
+
+	public LoginPage(WebDriver driver) {
+		super(driver);
+	}
+
+	@FindBy(xpath = "//input[@id='input-email']")
+	WebElement txtEmailAddress;
+
+	@FindBy(xpath = "//input[@id='input-password']")
+	WebElement txtPassword;
+
+	@FindBy(xpath = "//input[@value='Login']")
+	WebElement btnLogin;
+
+
+	public void setEmail(String email) {
+		txtEmailAddress.sendKeys(email);
+	}
+
+	public void setPassword(String pwd) {
+		txtPassword.sendKeys(pwd);
+	}
+
+	public void clickLogin() {
+		btnLogin.click();
+	}
+}
 
 
 Step:19 PageObjects Package -- MyAccountPage.java
 ========================================================================================================
+package pageObjects;
 
-Step:20 testng.xml for 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class MyAccountPage extends BasePage {
+
+	public MyAccountPage(WebDriver driver) {
+		super(driver);
+	}
+
+	@FindBy(xpath = "//h2[text()='My Account']") // MyAccount Page heading
+	WebElement msgHeading;
+
+	public boolean isMyAccountPageExists()   // MyAccount Page heading display status
+	{
+		try {
+			return (msgHeading.isDisplayed());
+		} catch (Exception e) {
+			return (false);
+		}
+	}
+}
+
+
+Step:20 testCases -- TC_002_LoginTest.java
 ========================================================================================================
+package testCases;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import pageObjects.HomePage;
+import pageObjects.LoginPage;
+import pageObjects.MyAccountPage;
+import testBase.BaseClass;
+
+
+public class TC_002_LoginTest extends BaseClass
+{
+	@Test
+	public void test_Login()
+	{
+		logger.info(" ***Starting TC_002_LoginTest***");
+		
+		try
+		{				
+			HomePage hp=new HomePage(driver);
+			hp.clickMyAccount();
+			logger.info("Clicked on My Account");
+			
+			hp.clickLogin();
+			logger.info("Clicked on Login Link");
+			
+			
+			LoginPage lp=new LoginPage(driver);
+			logger.info("Providing login details");
+			lp.setEmail(rb.getString("email")); // valid email, get it from config.properties file put form BaseClass.java
+			
+			lp.setPassword(rb.getString("password")); // valid password, get it from config.properties file put form BaseClass.java
+			
+			lp.clickLogin();
+			logger.info("Clicked on Login button");
+			
+			
+			MyAccountPage macc=new MyAccountPage(driver);
+			boolean targetpage=macc.isMyAccountPageExists();
+						
+			Assert.assertEquals(targetpage, true,"Invalid login data");
+			
+		}	
+		catch(Exception e)
+		{
+			Assert.fail();
+		}
+		logger.info("***Finished TC_002_LoginTest***");
+		
+	}
+}
 
 Step:21 src/test/resources -- config.properties
 ========================================================================================================
+appURL=https://tutorialsninja.com/demo/
+email=pradeepkumar@gmail.com
+password=pradeep@123
 
-Step:22 testCases -- TC_001_LoginTest.java
+	
+Step:22 testng.xml for 
 ========================================================================================================
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OpenCartSuite">
+	
+	 <listeners>
+		<listener class-name="utilities.ExtentReportManager" />
+	</listeners>
+	
+  <test thread-count="5" name="OpenCartTest">
+	  <parameter name="browser" value="chrome" />    <!-- passing browser parameter to BaseClass ->Setup() -->
+    <classes>
+     <!--  <class name="testCases.TC_001_AccountRegistrationTest"/> -->
+       <class name="testCases.TC_002_LoginTest"/>
+    </classes>
+  </test> <!-- OpenCartTest -->
+</suite> <!-- OpenCartSuite -->
+
+	
+
