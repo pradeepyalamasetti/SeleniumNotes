@@ -872,6 +872,10 @@ public class BaseClass {
 	
 	public String captureScreen(String tname) throws IOException 
 	{
+		/*SimpleDateFormat df = new SimpleDateFormat("yyyyMMddhhmmss");
+		  Date dt= new Date();
+		  String timestamp = df.format(dt);*/
+		
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 				
 		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
