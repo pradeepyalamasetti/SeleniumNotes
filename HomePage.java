@@ -915,6 +915,7 @@ Step:16 Step:9(repeat)  Go to testCases package rightClick convent to TestNG xml
 
 
 Step:17 Step:2(repeat) PageObjects Package -- HomePage.java Class
+	HomePage – update by adding login Page link element
 ========================================================================================================
 package pageObjects;
 
