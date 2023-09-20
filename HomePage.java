@@ -293,8 +293,8 @@ Step:6 1.Adding log4j2.xml file under src/test/resoures
 <Configuration status="WARN"> 
 
 <Properties>
-		<Property name="basePath">./logs</Property>
-	</Properties>
+	<Property name="basePath">./logs</Property>
+</Properties>
 
 
   <Appenders>
@@ -773,7 +773,7 @@ public class ExtentReportManager implements ITestListener {
 
 }
 
-Step:15  Step:13(repeat)  testBase Package-- BaseClass.java Class  ---- passing config.properties and capturescreen method
+Step:15  Step:13(repeat)  testBase Package-- BaseClass.java Class  ---- Static web driver and passing config.properties and capturescreen method
 ==========================================================================================================================
 package testBase;
 
@@ -803,7 +803,7 @@ import org.apache.logging.log4j.Logger;  // logging
 
 public class BaseClass {
 
-	public WebDriver driver;
+	public static WebDriver driver;
 	
 	public Logger logger; // for logging
 	
@@ -894,3 +894,21 @@ public class BaseClass {
 
 	}
 }
+
+Step:16 Step:9(repeat)  Go to testCases package rightClick convent to TestNG xml file and adding listener
+========================================================================================================
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OpenCartSuite">
+	
+<listeners>
+	<listener class-name="utilities.ExtentReportManager" />
+</listeners>
+	
+  <test thread-count="5" name="OpenCartTest">
+	  <parameter name="browser" value="chrome" />    <!-- passing browser parameter to BaseClass ->Setup() -->
+    <classes>
+      <class name="testCases.TC_001_AccountRegistrationTest"/>
+    </classes>
+  </test> <!-- OpenCartTest -->
+</suite> <!-- OpenCartSuite -->
