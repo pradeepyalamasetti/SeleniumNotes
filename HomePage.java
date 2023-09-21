@@ -1116,7 +1116,38 @@ Step:24 Utilities Package under add Excelutility file(ExcelUtility.java)
 	Create ExcelUtility class under utilities package.
 ========================================================================================================
 
-Step:25 testng.xml for 
+Step:25 Step:19(repeat) PageObjects Package -- MyAccountPage.java add logout link element
 ========================================================================================================
+package pageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class MyAccountPage extends BasePage {
+
+	public MyAccountPage(WebDriver driver) {
+		super(driver);
+	}
+
+	@FindBy(xpath = "//h2[text()='My Account']") // MyAccount Page heading
+	WebElement msgHeading;
+
+	@FindBy(xpath = "//div[@class='list-group']//a[text()='Logout']") 
+	WebElement lnkLogout;  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~add logout link element
+
+	public boolean isMyAccountPageExists()   // MyAccount Page heading display status
+	{
+		try {
+			return (msgHeading.isDisplayed());
+		} catch (Exception e) {
+			return (false);
+		}
+	}
+
+	public void clickLogout() {
+		lnkLogout.click();
+	}
+}
 	
 
