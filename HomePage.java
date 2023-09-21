@@ -1191,3 +1191,23 @@ public class DataProviders {
 	//DataProvider 4
 }
 
+Step:27 Step:22(repeat)  testng.xml for 
+========================================================================================================
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OpenCartSuite">
+	
+	 <listeners>
+		<listener class-name="utilities.ExtentReportManager" />
+	</listeners>
+	
+  <test thread-count="5" name="OpenCartTest">
+	  <parameter name="browser" value="chrome" />    <!-- passing browser parameter to BaseClass ->Setup() -->
+    <classes>
+     <!--  <class name="testCases.TC_001_AccountRegistrationTest"/> -->
+     <!--   <class name="testCases.TC_002_LoginTest"/>-->
+       <class name="testCases.TC_003_LoginDataDrivenTest"/>
+       
+    </classes>
+  </test> <!-- OpenCartTest -->
+</suite> <!-- OpenCartSuite -->
