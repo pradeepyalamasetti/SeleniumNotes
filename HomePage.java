@@ -1109,12 +1109,14 @@ Step:22 testng.xml for
 </suite> <!-- OpenCartSuite -->
 	
 Step:23 Create or prepared Excel data --- testData file under add excel file(Opencart_LoginData.xlsx)
+	Prepare test data in Excel, place the excel file inside the testData folder.
 ========================================================================================================
 
-Step:22 Utilities Package under add Excelutility file(ExcelUtility.java)
+Step:24 Utilities Package under add Excelutility file(ExcelUtility.java)
+	Create ExcelUtility class under utilities package.
 ========================================================================================================
 
-Step:22 testng.xml for 
+Step:25 testng.xml for 
 ========================================================================================================
 	
 
