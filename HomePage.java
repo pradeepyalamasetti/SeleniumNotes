@@ -1107,6 +1107,14 @@ Step:22 testng.xml for
     </classes>
   </test> <!-- OpenCartTest -->
 </suite> <!-- OpenCartSuite -->
+	
+Step:23 Create or prepared Excel data --- testData file under add excel file(Opencart_LoginData.xlsx)
+========================================================================================================
 
+Step:22 Utilities Package under add Excelutility file(ExcelUtility.java)
+========================================================================================================
+
+Step:22 testng.xml for 
+========================================================================================================
 	
 
