@@ -1660,7 +1660,13 @@ select the path ---- Edit--- New ----%MAVEN_HOME%\bin--ok
 Open the commadpormat (cmd) ---- mvn -version (type it)
 it show 3.9.4 which version in our pc.
 
-Step:36   Maven in two ways
-               1) one plugin dy default in eclipse(within eclipse use it)
-               2) like os in outside of eclipse(without eclipse use it)
+Step:36   How to run the pom.xml using the cmdpormat?
+========================================================================================================
+Project folder ----- right click ---- go to properites ---resource ----- copy the path.
+C:\Users\win\eclipse-workspace\OpenCart(project location)
+Open the cmdpormat
+cd C:\Users\win\eclipse-workspace\OpenCart
+After mvn test
+
+Step:37   How to run the pom.xml using the cmdpormat?
 ========================================================================================================
