@@ -1536,22 +1536,29 @@ Step:34 POM.XML file add two plugins and dependenices
 		
       <plugins>
 		  
-        <plugin>
-			
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.11.0</version>
-          <configuration>
-            <!-- put your configurations here -->
-          </configuration>
-          
-        </plugin>
+	        <plugin>
+				
+	          <groupId>org.apache.maven.plugins</groupId>
+	          <artifactId>maven-compiler-plugin</artifactId>
+	          <version>3.11.0</version>
+	          <configuration>
+	            <!-- put your configurations here -->
+	          </configuration>
+	          
+	        </plugin>
         
-         <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.1.2</version>
-        </plugin>
+      
+	         <plugin>
+	          <groupId>org.apache.maven.plugins</groupId>
+	          <artifactId>maven-surefire-plugin</artifactId>
+	          <version>3.1.2</version>
+	          
+	          <configuration>
+	                <suiteXmlFiles>
+			    <suiteXmlFile> mastertestng.xml</suiteXmlFile>
+			</suiteXmlFiles>
+		   </configuration>
+	        </plugin>
         
       </plugins>
       
