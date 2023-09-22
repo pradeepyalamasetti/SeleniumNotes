@@ -1646,8 +1646,21 @@ Step:34 POM.XML file add two plugins and dependenices
   </dependencies>
 </project>
 
-Step:35 POM.XML file add two plugins and dependenices
-	                  1) maven compiler plugin
-                          2) maven surefire plugin
+Step:35   Maven in two ways
+               1) one plugin dy default in eclipse(within eclipse use it)
+               2) like os in outside of eclipse(without eclipse use it)
+========================================================================================================
+https://maven.apache.org/download.cgi
+Download ---- after exact here folder ---- put in c drive 
+C:\apache-maven-3.9.4(copy the path)
+This PC --- go properties --- advanced system settings
+Environment variables ---- New ---- varaible name : MAVEN_HOME  ,varaible value: C:\apache-maven-3.9.4
+then ok 
+select the path ---- Edit--- New ----%MAVEN_HOME%\bin--ok
+Open the commadpormat (cmd) ---- mvn -version (type it)
+it show 3.9.4 which version in our pc.
 
+Step:36   Maven in two ways
+               1) one plugin dy default in eclipse(within eclipse use it)
+               2) like os in outside of eclipse(without eclipse use it)
 ========================================================================================================
