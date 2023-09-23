@@ -1676,3 +1676,48 @@ cd C:\Users\win\eclipse-workspace\OpenCart
 mvn test
 After Go to project folder location ---- run.bat ---- double click on bat file --- it will automatically start ….
 
+Git install(Local repository) ------git
+Remote/Global repository-------github(github account create)
+
+Step:38   Github workflow
+========================================================================================================
+working directory:  C:\Users\win\eclipse-workspace\OpenCart
+
+1st round
+-----------
+1) git init  --- create an empty local repository 
+2) git config --global user.name "your name"
+   git config --global user.email "your email"
+3) git add -A   --- add all the files and folders to staging area
+ git add filename.txt
+ git add *.java
+ git add foldername
+git status
+4) git commit -m "commit msg"
+5)  git remote add origin "github URL"
+6) git push -u origin master
+
+2nd round
+--------------
+1) git add -A
+2) git commit -m "commit msg"
+3) git push -u origin master
+
+Change the reportory
+------------------------
+git remote -v 
+git remote set-url origin https://github.com/pradeepyalamasetti/Opencartselenium.git
+
+How to get code from remote reportory
+---------------------------------------
+git pull   -- get files from github to workspace
+
+clone - get entire project into your workspce
+git clone "github repo url"  <folder> <br>
+Git tutorials: https://youtube.com/playlist?list=PLUDwpEzHYYLuMNNTu0EdWBeBtXdRhj4Lv
+
+how to delete complete reporsitory in github repository
+how to delete file in github repository
+how to add file in github repository
+
+
