@@ -1668,5 +1668,11 @@ Open the cmdpormat
 cd C:\Users\win\eclipse-workspace\OpenCart
 After mvn test
 
-Step:37   How to run the pom.xml using the cmdpormat?
+Step:37   Create bat file
 ========================================================================================================
+Project Folder --- right click --- new --- file ---- run.bat(create)
+run.bat ---- open with text editor ---- after add below 2 lines
+cd C:\Users\win\eclipse-workspace\OpenCart
+mvn test
+After Go to project folder location ---- run.bat ---- double click on bat file --- it will automatically start ….
+
