@@ -1720,4 +1720,233 @@ how to delete complete reporsitory in github repository
 how to delete file in github repository
 how to add file in github repository
 
+Step:39  Install in jenkins and configuration git,maven,JDK
+========================================================================================================
+https://www.jenkins.io/download/
+download jenkins 85.0mb size
+Create one folder for Jenkins --- paste jenkins.war
+open the cmdpmt
+cd C:\Jenkins
+java -jar jenkins.war
+Running with Java 20 from C:\Program Files\Java\jdk-20, which is not yet fully supported.
+Run the command again with the --enable-future-java flag to enable preview support for future Java versions.
+Supported Java versions are: [11, 17]
+See https://jenkins.io/redirect/java-support/ for more information.
+C:\Program Files\Java\jdk-20
+C:\Program Files\Java\jdk-17.0.8
+open links------ http:localhost:9090
+C:\ProgramData\Jenkins\.jenkins\secrets\initialAdminPassword
+4d028c63adaf4319b7a439df14990b46
+install suggested Plugins(all) --- 5min wait
 
+username : admin
+pswd :admin
+
+1.Manage jenkins ---go plugins ----- available--- search(maven integeration,git,github)
+2.Dashboard→Manage Jenkins→ tools 
+         JDK ---- name(Java)-----Java_home(path C:\Program Files\Java\jdk-17.0.8)
+
+         GIT ---name(mygit) ----path_to_git(path C:\Program Files\Git\bin\git.exe)
+
+         Maven ----- name(mymaven) ----MAVEN_HOME(path C:\apache-maven-3.9.4)
+Finally Save and apply ……………
+
+https://github.com/pradeepyalamasetti/Opencartselenium.git
+Enter the name(OpencartseleniumGit) ------ select Maven project -----ok 
+
+soucre code management ---- select radio button Git ----- repository URL(paste urlg from github)
+
+Build ---- show (pom.xml)  ----Goals and options(test)
+Save 
+
+Go to Dashboard ---- click on OpencartseleniumGit ----Build Now
+
+Enter the name(OpencartLocal) ------ select Maven project -----ok 
+
+soucre code management ---- select None Git -----
+Build ---- Root POM(pom.xml  total path(C:\Users\win\eclipse-workspace\OpenCart\pom.xml))  ----test
+Apply and save.
+
+Step:40  TC_004_SearchProductTest
+	 HomePage.java,SearchPage.java,TC_004_SearchProductTest.java
+========================================================================================================
+
+package pageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+
+public class HomePage extends BasePage {
+
+	public HomePage(WebDriver driver) {
+		super(driver);
+	}
+
+	// Elements
+	@FindBy(xpath = "//span[text()='My Account']")
+	WebElement lnkMyaccount;
+
+	@FindBy(linkText = "Register")
+	WebElement lnkRegister;
+
+	@FindBy(linkText = "Login")   // Login page Locator added 
+	WebElement linkLogin;
+	
+	@FindBy(xpath="//input[@placeholder='Search']")  //For Search Product Test
+	WebElement txtSearchbox;
+	
+	@FindBy(xpath="//div[@id='search']//button[@type='button']") //For Search Product Test
+	WebElement btnSearch;
+	
+	
+	// Action Methods
+	public void clickMyAccount() {
+		lnkMyaccount.click();
+	}
+
+	public void clickRegister() {
+		lnkRegister.click();
+	}
+	
+	public void clickLogin()    // Login page method added 
+	{
+		linkLogin.click();
+	}
+	
+	public void enterProductName(String pName)   //For Search Product Test
+	{
+		txtSearchbox.sendKeys(pName);
+	}
+	
+	public void clickSearch()  //For Search Product Test
+	{
+		btnSearch.click();
+	}
+	
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+package pageObjects;
+
+import java.util.List;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class SearchPage extends BasePage
+{   
+	WebDriver driver;
+	
+	public SearchPage(WebDriver driver)
+	{
+		super(driver);
+	}	
+	
+		@FindBy(xpath="//*[@id='content']/div[3]//img")
+		List<WebElement> searchProducts;
+				
+		@FindBy(xpath="//input[@id='input-quantity']")
+		WebElement txtquantity;
+		
+		@FindBy(xpath="//button[@id='button-cart']")
+		WebElement btnaddToCart;
+		
+		@FindBy(xpath="//div[contains(text(),'Success: You have added')]")
+		WebElement cnfMsg;
+		
+		public boolean isProductExist(String productName)
+		{
+			boolean flag=false;
+			for(WebElement product:searchProducts)
+			{				
+				if(product.getAttribute("title").equals(productName))
+				{
+				flag=true;
+				break;
+				}
+			}
+			
+			return flag;
+		
+		}
+		
+		public void selectProduct(String productName)
+		{
+			for(WebElement product:searchProducts)
+			{				
+				if(product.getAttribute("title").equals(productName))
+				{
+					product.click();
+				}
+			}
+		
+		}
+		
+		public void setQuantity(String qty)
+		{
+			txtquantity.clear();
+			txtquantity.sendKeys(qty);
+		}
+		
+		public void addToCart()
+		{
+			btnaddToCart.click();
+		}
+		
+		public boolean checkConfMsg()
+		{
+			try
+			{
+			return cnfMsg.isDisplayed();
+			}
+			catch(Exception e)
+			{
+				return false;
+			}
+		}
+		
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+package testCases;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import pageObjects.HomePage;
+import pageObjects.SearchPage;
+import testBase.BaseClass;
+
+@Test
+public class TC_004_SearchProductTest extends BaseClass {
+
+	public void test_pruductSearch() throws InterruptedException {
+		logger.info(" Starting TC_004_SearchProductTest ");
+
+		try {
+			
+			HomePage hm=new HomePage(driver);
+			
+			//hm.enterProductName("iPhone");
+			hm.enterProductName("mac");
+			
+			hm.clickSearch();
+			
+			SearchPage sp=new SearchPage(driver);
+			sp.isProductExist("MacBook");
+
+			Assert.assertEquals(sp.isProductExist("MacBook"),true);
+
+		} catch (Exception e) {
+			Assert.fail();
+		}
+
+		logger.info(" Finished TC_004_SearchProductTest ");
+
+	}
+}
+
+Step:41  TC_004_SearchProductTest
+	 HomePage.java,SearchPage.java,TC_004_SearchProductTest.java
+========================================================================================================
