@@ -32,8 +32,12 @@ In your elliscpe ---go to help -- elliscpe Marketplace  ----Natural 0.9  --- ins
 
 Create Features
 Right click on --- Features folder ---- New -- file ---xyz.feature(example) extension --- feature
+
+
 	
 Step:2  Create Features package under Create the feature Login file ---- Login.feature
+
+	Note : - One Features file contains multiple Scenarios 
 ==============================================================================================================
 Right click on --- Features folder ---- New -- file ---- Login.feature(example) extension --- feature
                     Run As --- Cucumber Feature
@@ -49,6 +53,8 @@ Feature: Login with Valid Credentials
     And User enters Email as "pradeepkumar@gmail.com" and Password as "pradeep@123"
     And Click on Login button
     Then User navigates to MyAccount Page
+
+	
 
 Step:3  Create stepDefinitions package  under Create steps.java class add this code
 ==============================================================================================================
