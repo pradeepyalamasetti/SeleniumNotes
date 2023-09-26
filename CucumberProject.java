@@ -118,9 +118,19 @@ C:\user\win>cd ..
 C:\>cd C:\Jenkins
 C:\Jenkins>java -jar jenkins.war
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Consider this
-open the Jenkins --- New item ------- Project name given(CucumberProject_github )---- 
-select Maven project ------ok ---- select git --- paste github url(https://github.com/pradeepyalamasetti/CucumberProject.git)
- ---- go build given ---test ---- Apply and save ------Go to Dashborad --- open the project --- Build Now
+Run with Remote repository
+==========================
+open the Jenkins --- New item ------- Project name given(CucumberProject_github )---- select Maven project 
+------ok
+---- select git --- paste github url(https://github.com/pradeepyalamasetti/CucumberProject.git) 
+---- go build given ---test ---- Apply and save ------Go to Dashborad --- open the project --- Build Now
+
+Run with Local repository
+=========================
+open the Jenkins --- New item ------- Project name given(CucumberProject_local )---- select Maven project 
+------ok ---- ---- go build -----Root POM
+--- paste the local path of pom xml (C:\Users\win\eclipse-workspace\CucumberProject\pom.xml)
+---test ---- Apply and save ------Go to Dashborad --- open the project --- Build Now
+
 
 
