@@ -58,45 +58,69 @@ Feature: Login with Valid Credentials
 
 Step:3  Create stepDefinitions package  under Create steps.java class add this code
 ==============================================================================================================
-package stepDefinitions;
 
-import io.cucumber.java.en.*;
+Step:4  Total all Files ready after that do 
+==============================================================================================================
 
-public class steps {
-	@Given("User Launch browser")
-	public void user_launch_browser() {
-	    
-	}
+Step:4  Project Running all Platforms 
+==============================================================================================================
+Features  contains ~~~~~~~~~~ scenarios
+Steps cotains ~~~~~~~logic and implementing code ~~~~~~~scenarios all Methods() is there.checking here
+Testrunner ~~~~~~~~~~ Run the file using testrunner
 
-	@Given("opens URL {string}")
-	public void opens_url(String string) {
-	    
-	}
+dryRun=false, // coresponding method is avaliable then run the porgram
+dryRun=ture, // coresponding method is avaliable or not show in console true or false
 
-	@When("User navigate to MyAccount menu")
-	public void user_navigate_to_my_account_menu() {
-	   
-	}
+Run with failure tests
+======================
+Note only Failure tests ---------Go to target folder ---- rerun.txt --- enable  @target/rerun.txt 
 
-	@When("click on Login")
-	public void click_on_login() {
-	    
-	}
+Run with grouping tests
+=======================
+#grouping means in cucumber is "tags"
+#@sanity @regression
 
-	@When("User enters Email as {string} and Password as {string}")
-	public void user_enters_email_as_and_password_as(String string, String string2) {
-	    
-	}
+Run with pom.xml test
+=====================
+Go to Pom.xml file (in plugins remove configuation tag)----- then save --- right click in pom.xml file
+ ---- Run As ----- Maven test
 
-	@When("Click on Login button")
-	public void click_on_login_button() {
-	   
-	}
+BUILD SUCCESS  in POM.XML file
 
-	@Then("User navigates to MyAccount Page")
-	public void user_navigates_to_my_account_page() {
-	   
-	}
+Run with commandpropmt  test
+============================
+Open the cmdprt ---- check mvn -version ----- project folder ---- right click ---properties ---- 
+copy the path(C:\Users\win\eclipse-workspace\CucumberProject)  ----- cd copy the path -----then mvn test
 
-}
+BUILD SUCCESS  in CommandPropmt 
+
+Project add github 
+===================
+copy the path :  C:\Users\win\eclipse-workspace\CucumberProject
+C:\Users\win\eclipse-workspace\CucumberProject  --- open this location --- right click --- git Bash here
+steps 
+git init
+git add -A
+git commit -m "first commit"
+Before Push ------ git repository create in github repository  link to copy 
+Github link : https://github.com/pradeepyalamasetti/CucumberProject.git
+git remote add origin "https://github.com/pradeepyalamasetti/CucumberProject.git"
+git push -u origin master
+
+After local to remote repository that Project add github 
+Run with Jenkins
+====================================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Don’t consider this
+Open the cmdprt
+path the jenkins path(C:\Jenkins)
+C:\user\win>cd ..
+C:\>cd C:\Jenkins
+C:\Jenkins>java -jar jenkins.war
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Consider this
+open the Jenkins --- New item ------- Project name given(CucumberProject_github )---- 
+select Maven project ------ok ---- select git --- paste github url(https://github.com/pradeepyalamasetti/CucumberProject.git)
+ ---- go build given ---test ---- Apply and save ------Go to Dashborad --- open the project --- Build Now
+
 
