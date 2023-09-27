@@ -25,6 +25,11 @@ step3) open command prompt
 2) Browser Specific drivers
 3) Browsers (chrome, edge, firefox...)
 
+Manual testing
+-----------------------------------
+In your system 3Dots --- help ----- About Google CHrome ---Check Version 117.0.5938.92 (Official Build) (64-bit)
+Go Selenium website  ---- downloads ---- browsers ------ chrome --- documentation ----- older version(somethings is wrong)
+	
 Steps
 -----
 1) Create Maven project in Eclipse
