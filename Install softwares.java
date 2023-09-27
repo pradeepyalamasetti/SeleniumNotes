@@ -214,12 +214,14 @@ MAVEN_HOME ----C:\software\apache-maven-3.9.4 ---- ok ------ path file ---- Edit
 6.copy one time password (93d29acfa58e4ee7b54cac495e31fb2c)
 7.http://localhost:8080/
 8.install suggested plugins
-9.
+9.install some more plugins ---maven integration.html publisher ,
+10.system configured ----Tools ------ add JDK path name(JAVA_HOME) JAVA_HOME(C:\Program Files\Java\jdk-11)
+	                       ----- add MAVEN path name(MAVEN_HOME) MAVEN_HOME(C:\software\apache-maven-3.9.4)
+Apply and Save.
 
 
-
-
-
+3.Setup jenkins using command prompt 
+=====================================================================================================
 
 
 
