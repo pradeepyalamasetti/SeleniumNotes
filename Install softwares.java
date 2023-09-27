@@ -32,6 +32,7 @@ step3) open command prompt
 2.Install Eclipse and run
 =====================================================================================================
 https://www.eclipse.org/downloads/packages/
+C:\Users\win\eclipse\java-2023-092\eclipse
 	
 
 2.Setup Webdriver in Eclipse
