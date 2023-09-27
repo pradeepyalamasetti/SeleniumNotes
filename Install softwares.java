@@ -180,3 +180,11 @@ First Create the Pom.xml file some line of code is come automatically after that
 		
   </dependencies>
 </project>
+
+	
+3.Setup maven.apache.org
+=====================================================================================================
+https://maven.apache.org/ ------- Downloads --------- zip file for windows ----- C:\software\apache-maven-3.9.4
+This PC ------ properties properties ---- Advance system settings --- environment variables -----
+MAVEN_HOME ----C:\software\apache-maven-3.9.4 ---- ok ------ path file ---- Edit ---- paste(%MAVEN_HOME%\bin)----ok
+	
