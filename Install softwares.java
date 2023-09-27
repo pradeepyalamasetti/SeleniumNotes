@@ -1,6 +1,8 @@
-java -version
-git -v
-mvn -version
+Create Oracle account -------------(in 3days)
+java -version -------------------- (cmd check)
+git -v --------------------------- (cmd check)
+Create Github account  ------------(username and pswd)
+mvn -version --------------------- (cmd check) (apache-maven-3.9.4)
 
 
 
