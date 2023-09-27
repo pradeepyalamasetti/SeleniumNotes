@@ -14,9 +14,11 @@ Download & Install Java
 -------------------------------
 step1) downlaod & install JDK
        create account in Oracle.then after you can download exe file in 3 days
+	i am java.exe file in software folder.
 
 step2) set jdk path 
-C:\Program Files\Java\jdk-11.0.15\bin
+JAVA_HOME ~~~~~~ C:\Program Files\Java\jdk-11
+path ~~~~~~ C:\Program Files\Java\jdk-11\bin
 
 Right click This PC --> properties-->Advanced system settings
 -->Environemnt varaibles button-->system variables
