@@ -8,6 +8,7 @@ mvn -version --------------------- (cmd check) (apache-maven-3.9.4)
 
 1.Install Java using this link
 =====================================================================================================
+vedios : https://www.udemy.com/course/learn-selenium-with-java-live-project/learn/lecture/34764504#content
 https://www.oracle.com/java/technologies/downloads/#java11-windows
   
 Download & Install Java
