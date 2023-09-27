@@ -37,7 +37,7 @@ C:\Users\win\eclipse\java-2023-092\eclipse
 
 	
 
-2.Setup Webdriver in Eclipse
+3.Setup Webdriver in Eclipse
 =====================================================================================================
 1) Selenium client Library
 2) Browser Specific drivers
@@ -59,7 +59,7 @@ Steps
 
 
 	
-3.Setup POM.XML file ----- plugins and dependencies
+4.Setup POM.XML file ----- plugins and dependencies
 =====================================================================================================
 First Create the Pom.xml file some line of code is come automatically after that you can added dependencies and plugins
 	otherwise you face issuse
@@ -198,13 +198,13 @@ First Create the Pom.xml file some line of code is come automatically after that
 </project>
 
 	
-3.Setup maven.apache.org
+5.Setup maven.apache.org
 =====================================================================================================
 https://maven.apache.org/ ------- Downloads --------- zip file for windows ----- C:\software\apache-maven-3.9.4
 This PC ------ properties properties ---- Advance system settings --- environment variables -----
 MAVEN_HOME ----C:\software\apache-maven-3.9.4 ---- ok ------ path file ---- Edit ---- paste(%MAVEN_HOME%\bin)----ok
 	
-3.Setup jenkins using command prompt 
+6.Setup jenkins using command prompt 
 =====================================================================================================
 1.https://www.jenkins.io/download/  ---- download(Download Jenkins 2.414.2 LTS for:) --- after
 2.create one folder ----- jars(C:\software\jars)---paste war file inside this. --- after
@@ -220,12 +220,20 @@ MAVEN_HOME ----C:\software\apache-maven-3.9.4 ---- ok ------ path file ---- Edit
 Apply and Save.
 
 
-3.Setup jenkins using command prompt 
+7.Setup jenkins using command prompt 
 =====================================================================================================
+1.https://www.selenium.dev/downloads/
+2.Latest stable version 4.13.0(Download)
+3.Open the cmd prompt
+4.cd..
+5.cd C:\software\jars
+6.https://www.selenium.dev/documentation/grid/getting_started/(commands all here this link)
+----- java -jar selenium-server-<version>.jar standalone
+----- java -jar selenium-server-4.13.0.jar standalone
+7.
 
-
-
-
+Install 
+https://www.virtualbox.org/wiki/Downloads--------------windows hosts --------- click on it
 
 
 
