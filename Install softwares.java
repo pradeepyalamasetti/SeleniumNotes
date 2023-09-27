@@ -1,3 +1,9 @@
+java -version
+git -v
+mvn -version
+
+
+
 1.Install Java using this link
 =====================================================================================================
 https://www.oracle.com/java/technologies/downloads/#java11-windows
