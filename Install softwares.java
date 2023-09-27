@@ -204,3 +204,35 @@ https://maven.apache.org/ ------- Downloads --------- zip file for windows -----
 This PC ------ properties properties ---- Advance system settings --- environment variables -----
 MAVEN_HOME ----C:\software\apache-maven-3.9.4 ---- ok ------ path file ---- Edit ---- paste(%MAVEN_HOME%\bin)----ok
 	
+3.Setup jenkins using command prompt 
+=====================================================================================================
+1.https://www.jenkins.io/download/  ---- download(Download Jenkins 2.414.2 LTS for:) --- after
+2.create one folder ----- jars(C:\software\jars)---paste war file inside this. --- after
+3.open command prompt
+4.cd C:\software\jars
+5.java -jar jenkins.war -- Press Enter
+6.copy one time password (93d29acfa58e4ee7b54cac495e31fb2c)
+7.http://localhost:8080/
+8.install suggested plugins
+9.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
