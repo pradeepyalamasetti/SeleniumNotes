@@ -17,3 +17,15 @@ Right click This PC --> properties-->Advanced system settings
 
 step3) open command prompt
 	java -version
+
+
+2.Setup Webdriver in Eclipse
+=====================================================================================================
+1) Selenium client Library
+2) Browser Specific drivers
+3) Browsers (chrome, edge, firefox...)
+
+Steps
+-----
+1) Create Maven project in Eclipse
+	File--> Other--> Maven project 
