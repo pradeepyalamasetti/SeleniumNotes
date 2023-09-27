@@ -29,7 +29,9 @@ Right click This PC --> properties-->Advanced system settings
 step3) open command prompt
 	java -version
 
-
+2.Install Eclipse and run
+=====================================================================================================
+https://www.eclipse.org/downloads/packages/
 	
 
 2.Setup Webdriver in Eclipse
