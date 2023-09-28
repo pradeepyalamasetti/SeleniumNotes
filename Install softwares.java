@@ -7,7 +7,7 @@ mvn -version --------------------- (cmd check) (apache-maven-3.9.4)
 
 
 1.Install Java using this link
-=====================================================================================================
+=========================================================================================================
 vedios : https://www.udemy.com/course/learn-selenium-with-java-live-project/learn/lecture/34764504#content
 https://www.oracle.com/java/technologies/downloads/#java11-windows
   
@@ -230,7 +230,16 @@ Apply and Save.
 6.https://www.selenium.dev/documentation/grid/getting_started/(commands all here this link)
 ----- java -jar selenium-server-<version>.jar standalone
 ----- java -jar selenium-server-4.13.0.jar standalone
-7.
+7.HUB   ----- java -jar selenium-server-<version>.jar hub
+8.Node is running on the same machine where the Hub is running
+	----------java -jar selenium-server-<version>.jar node
+9.NODE 1(Open new cmd prompt and run)  ----- java -jar selenium-server-<version>.jar node --port 5555 
+10.NODE 2(Open new cmd prompt and run)  ----- java -jar selenium-server-<version>.jar node --port 6666
+	
+
+
+
+
 
 Install 
 https://www.virtualbox.org/wiki/Downloads--------------windows hosts --------- click on it
