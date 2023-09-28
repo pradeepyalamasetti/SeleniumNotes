@@ -241,9 +241,14 @@ Apply and Save.
 
 
 
-Install 
-https://www.virtualbox.org/wiki/Downloads--------------windows hosts --------- click on it
+Install VirtualBox
+=============================================================================================
+1.https://www.virtualbox.org/wiki/Downloads--------------windows hosts --------- click on it
+Download after Run your local system(virtualbox)
 
+Install Ubuntu 
+================================================================================================
+https://www.youtube.com/watch?v=x5MhydijWmc
 
 
 
