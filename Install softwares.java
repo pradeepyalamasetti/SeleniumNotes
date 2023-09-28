@@ -241,15 +241,15 @@ Apply and Save.
 
 
 
-Install VirtualBox
+8. Install VirtualBox
 =============================================================================================
 1.https://www.virtualbox.org/wiki/Downloads--------------windows hosts --------- click on it
 Download after Run your local system(virtualbox)
 
-Install Ubuntu 
+9. Install Ubuntu 
 ================================================================================================
-https://www.youtube.com/watch?v=x5MhydijWmc
-https://ubuntu.com/download/desktop(Ubuntu 22.04.3 LTS)----
+https://www.youtube.com/watch?v=x5MhydijWmc   ------ Following this vedios.It is Done
+https://ubuntu.com/download/desktop(Ubuntu 22.04.3 LTS)
 
 
 
