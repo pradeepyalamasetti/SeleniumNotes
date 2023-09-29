@@ -192,7 +192,10 @@ First Create the Pom.xml file some line of code is come automatically after that
 5.Install plugins and dependencies for Maven Project 
 =====================================================================================================
 Click on Project folder ----- Maven ---update project --- force update ---- OK
-	
+
+6.Add TestNG  for Maven Project 
+=====================================================================================================
+Right click ----- properties -------Java build path ---- add Library ----- 
 	
 5.Setup maven.apache.org
 =====================================================================================================
