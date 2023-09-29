@@ -226,6 +226,10 @@ Download after Run your local system(virtualbox)
 https://www.youtube.com/watch?v=x5MhydijWmc   ------ Following this vedios.It is Done
 https://ubuntu.com/download/desktop(Ubuntu 22.04.3 LTS)
 
+sudo apt-get update
+sudo apt-get install openjdk-11-jdk
+java -version
+
 9.Setup SELENIUM GRID using command prompt 
 =====================================================================================================
 1.https://www.selenium.dev/downloads/
