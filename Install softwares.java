@@ -323,7 +323,7 @@ java -version
 7.HUB   ----- java -jar selenium-server-<version>.jar hub
 8.Node is running on the same machine where the Hub is running
 	----------java -jar selenium-server-<version>.jar node
-9.NODE 1(Open new cmd prompt and run)  ----- java -jar selenium-server-<version>.jar node --port 5555 
+9.NODE 1(Open new cmd prompt and run)  ----- java -jar selenium-server-4.13.0.jar node --port 5555 
 10.NODE 2(Open new cmd prompt and run)  ----- java -jar selenium-server-<version>.jar node --port 6666
 
 
