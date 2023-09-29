@@ -37,7 +37,7 @@ C:\Users\win\eclipse\java-2023-092\eclipse
 
 	
 
-3.Setup Webdriver in Eclipse
+3.Setup Webdriver in Eclipse OR Create Maven Project 
 =====================================================================================================
 1) Selenium client Library
 2) Browser Specific drivers
@@ -89,28 +89,26 @@ First Create the Pom.xml file some line of code is come automatically after that
 	          <version>3.1.2</version>
 	          
 	    <!-- <configuration>
-	                <suiteXmlFiles>
-				          <suiteXmlFile> mastertestng.xml</suiteXmlFile>
-			         </suiteXmlFiles>
-			   </configuration>-->
-	        </plugin>  
+	        <suiteXmlFiles>
+			<suiteXmlFile> mastertestng.xml</suiteXmlFile>
+		</suiteXmlFiles>
+	</configuration>-->
+         </plugin>  
       </plugins>
-      
     </pluginManagement>
-    
   </build>
   
-  
+
   <dependencies>
 	  
-			  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+	<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 		<dependency>
 		    <groupId>io.cucumber</groupId>
 		    <artifactId>cucumber-java</artifactId>
 		    <version>7.14.0</version>
 		</dependency>
 		
-				<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+	<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
 		<dependency>
 		    <groupId>io.cucumber</groupId>
 		    <artifactId>cucumber-junit</artifactId>
@@ -118,9 +116,7 @@ First Create the Pom.xml file some line of code is come automatically after that
 		    <scope>test</scope>
 		</dependency>
 
-
-	  
-			  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+ <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 		    <groupId>org.seleniumhq.selenium</groupId>
 		    <artifactId>selenium-java</artifactId>
@@ -128,14 +124,14 @@ First Create the Pom.xml file some line of code is come automatically after that
 		</dependency>
 
 	  
-				<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+	<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 		<dependency>
 		    <groupId>io.github.bonigarcia</groupId>
 		    <artifactId>webdrivermanager</artifactId>
 		    <version>5.5.3</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
 		<dependency>
 		    <groupId>org.apache.poi</groupId>
 		    <artifactId>poi</artifactId>
@@ -143,42 +139,42 @@ First Create the Pom.xml file some line of code is come automatically after that
 		</dependency>
 
 
-		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
 		<dependency>
 		    <groupId>org.apache.poi</groupId>
 		    <artifactId>poi-ooxml</artifactId>
 		    <version>5.2.3</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
 		<dependency>
 		    <groupId>org.apache.logging.log4j</groupId>
 		    <artifactId>log4j-core</artifactId>
 		    <version>3.0.0-alpha1</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
 		<dependency>
 		    <groupId>org.apache.logging.log4j</groupId>
 		    <artifactId>log4j-api</artifactId>
 		    <version>3.0.0-alpha1</version>
 		</dependency>
 
-	<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 	<dependency>
 	    <groupId>commons-io</groupId>
 	    <artifactId>commons-io</artifactId>
 	    <version>2.13.0</version>
 	</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
 	<dependency>
 	    <groupId>org.apache.commons</groupId>
 	    <artifactId>commons-lang3</artifactId>
 	    <version>3.13.0</version>
 	</dependency>
 	
-		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 	<dependency>
 	    <groupId>org.testng</groupId>
 	    <artifactId>testng</artifactId>
@@ -186,14 +182,13 @@ First Create the Pom.xml file some line of code is come automatically after that
 	    <scope>test</scope>
 	</dependency>
 
-	<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 	<dependency>
 	    <groupId>com.aventstack</groupId>
 	    <artifactId>extentreports</artifactId>
 	    <version>5.1.0</version>
 	</dependency>
-
-		
+	
   </dependencies>
 </project>
 
@@ -220,10 +215,21 @@ MAVEN_HOME ----C:\software\apache-maven-3.9.4 ---- ok ------ path file ---- Edit
 Apply and Save.
 
 
-7.Setup jenkins using command prompt 
+
+7. Install VirtualBox
+=============================================================================================
+1.https://www.virtualbox.org/wiki/Downloads--------------windows hosts --------- click on it
+Download after Run your local system(virtualbox)
+
+8. Install Ubuntu 
+================================================================================================
+https://www.youtube.com/watch?v=x5MhydijWmc   ------ Following this vedios.It is Done
+https://ubuntu.com/download/desktop(Ubuntu 22.04.3 LTS)
+
+9.Setup SELENIUM GRID using command prompt 
 =====================================================================================================
 1.https://www.selenium.dev/downloads/
-2.Latest stable version 4.13.0(Download)
+2.Latest stable version 4.13.0(Download) ------ SELENIUM GRID(C:\software\jars)
 3.Open the cmd prompt
 4.cd..
 5.cd C:\software\jars
@@ -235,23 +241,6 @@ Apply and Save.
 	----------java -jar selenium-server-<version>.jar node
 9.NODE 1(Open new cmd prompt and run)  ----- java -jar selenium-server-<version>.jar node --port 5555 
 10.NODE 2(Open new cmd prompt and run)  ----- java -jar selenium-server-<version>.jar node --port 6666
-	
-
-
-
-
-
-8. Install VirtualBox
-=============================================================================================
-1.https://www.virtualbox.org/wiki/Downloads--------------windows hosts --------- click on it
-Download after Run your local system(virtualbox)
-
-9. Install Ubuntu 
-================================================================================================
-https://www.youtube.com/watch?v=x5MhydijWmc   ------ Following this vedios.It is Done
-https://ubuntu.com/download/desktop(Ubuntu 22.04.3 LTS)
-
-
 
 
 
