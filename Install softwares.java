@@ -195,7 +195,8 @@ Click on Project folder ----- Maven ---update project --- force update ---- OK
 
 6.Add TestNG  for Maven Project 
 =====================================================================================================
-Right click ----- properties -------Java build path ---- add Library ----- 
+Eclipse inside ----- help ---- eclipse market place ---- serach(TestNG for eclipse)--- install
+Right click ----- properties -------Java build path ---- add Library ----- TestNG --- next ---Finish
 	
 5.Setup maven.apache.org
 =====================================================================================================
