@@ -195,8 +195,83 @@ Click on Project folder ----- Maven ---update project --- force update ---- OK
 
 6.Add TestNG  for Maven Project 
 =====================================================================================================
+35. Introduction to TestNG & Annotations in TestNG(pavan)
 Eclipse inside ----- help ---- eclipse market place ---- serach(TestNG for eclipse)--- install
 Right click ----- properties -------Java build path ---- add Library ----- TestNG --- next ---Finish
+
+
+Eclipse ---- package --- file(FristTest.java) --- right click ---- go to TestNG --- convert to TestNG.
+
+
+
+7.TestNG related files and words and tags 
+=======================================================================================================
+Noraml testng file
+-------------------
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="day35.AllAnnotations"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Grouping testng file
+-------------------
+<suite name="my suite">
+    <test name="my tests">
+	 <groups>
+	     <run>
+		<include name="regression" />
+		<exclude name="sanity"/>
+	    </run>
+	 </groups>
+		
+	 <classes>
+	    <class name="day36.Grouping" />
+	 </classes>
+   </test>
+</suite>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Parallel testng file
+-------------------
+<suite name="mysuite" thread-count="2" parallel="tests">
+    <test  name="edge test">
+       <parameter name="browser" value="edge" /> 
+            <parameter name="url" value="https://opensource-demo.orangehrmlive.com/" /> 
+	     <classes>
+                <class name="day37.ParamTest"/>
+             </classes>
+   </test> 
+  
+   <test name="chrome test">
+      <parameter name="browser" value="chrome" /> 
+          <parameter name="url" value="https://opensource-demo.orangehrmlive.com/" /> 
+          <classes>
+              <class name="day37.ParamTest"/>
+         </classes>
+  </test> 
+</suite> 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Listener testng file
+-------------------
+<suite name="Suite">
+  <listeners>
+  	<listener class-name="day38.MyListener" />
+  </listeners>
+  
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="day38.MyTest"/>
+    </classes>
+  </test> 
+</suite> 
+
+
+
+
 	
 5.Setup maven.apache.org
 =====================================================================================================
