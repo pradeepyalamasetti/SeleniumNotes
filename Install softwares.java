@@ -56,9 +56,6 @@ Steps
 	create simple project --- Project id name (two times) --- finish
 
 
-
-
-	
 4.Setup POM.XML file ----- plugins and dependencies
 =====================================================================================================
 First Create the Pom.xml file some line of code is come automatically after that you can added dependencies and plugins
@@ -192,6 +189,10 @@ First Create the Pom.xml file some line of code is come automatically after that
   </dependencies>
 </project>
 
+5.Install plugins and dependencies for Maven Project 
+=====================================================================================================
+Click on Project folder ----- Maven ---update project --- force update ---- OK
+	
 	
 5.Setup maven.apache.org
 =====================================================================================================
