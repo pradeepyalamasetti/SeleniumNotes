@@ -41,7 +41,7 @@ Ans. Regression:
      1.It is know as planned testing.
      2.Testing again and again to make sure the defect has been fixed or not.
      3.It take less time as it focus only on defect of the application.
-     
+----->If you want we can give examples for both.
 11. If you have a situation like need to execute all test cases under the project for regression before
 release, how you can manage the situation?
 Ans.
