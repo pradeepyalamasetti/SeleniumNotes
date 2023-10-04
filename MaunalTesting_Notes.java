@@ -1,4 +1,4 @@
-1. What is Manual Testing?
+1. What is Manual Testing?Maual testing
 2. What tool is used for Manual Testing?
 3. What is the Advantage of Manual Testing?
 4. What are the disadvantages of Manual testing?
