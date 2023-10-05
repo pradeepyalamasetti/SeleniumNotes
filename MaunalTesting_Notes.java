@@ -31,7 +31,7 @@ Ans. By Requirement Traceability Matrix is used for the impact analysis. RTM tel
      
 9. You have 20 bugs, and you need to fix them as well as you need to run the regression. You are the only
    two people in a team. How will you do it, and which one will you prioritise?
-     
+Ans.    
 10. Difference between Regression and retesting?
 Ans. Regression:
      1.It is know as generic testing.
@@ -60,7 +60,7 @@ Ans. Smoke testing:
      Adhoc testing:
      Adohc testing is used when we don't have documentation.
 15. Difference between smoke and sanity?
-     Smoke testing:
+Ans. Smoke testing:
      1.It is also called as subset of accetance testing.
      2.smoke testing is done to assure that the acute fucntionalities of program is working fine.
      3.smoke testing is used to test all over function of the system.
@@ -88,7 +88,7 @@ Ans.Functional testing:
     4.Data validation.
      
 19. What is the defect life cycle?
-     New: When a new defect is logged and posted for the first time. It is assigned a status as NEW.
+Ans. New: When a new defect is logged and posted for the first time. It is assigned a status as NEW.
      Assigned: Once the bug is posted by the tester, the lead of the tester approves the bug and assigns the bug to the developer team
      Open: The developer starts analyzing and works on the defect fix
      Fixed: When a developer makes a necessary code change and verifies the change, he or she can make bug status as “Fixed.”
@@ -120,12 +120,11 @@ Ans. 1.Requirement Analysis:
 21. What is the software testing life cycle(STLC)?
 Ans.
 22. In which phase of SDLC, your work starts?
-
+Ans.Testing
 23. You find the existing testing process is not up to mark in your current organisation. How will you approach your manager to bring changes?
 Ans.
-24. Explain testing process followed by your company
-25. What is the Test design technique you used in your organisation like
-error guessing, Equivalence partition, Boundary value analysis?
+24. Explain testing process followed by your company?
+25. What is the Test design technique you used in your organisation like error guessing, Equivalence partition, Boundary value analysis?
 26. Apart from the RTM, how do you ensure that your Test Design coverage is optimum?
 27. Explain Test Design Techniques
 28. What levels of Testing have you worked on?
