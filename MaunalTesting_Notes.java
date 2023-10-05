@@ -112,4 +112,48 @@ Ans.
 Ans.
 22. In which phase of SDLC, your work starts?
 
+23. You find the existing testing process is not up to mark in your current
+organisation. How will you approach your manager to bring changes?
+
+24. Explain testing process followed by your company
+25. What is the Test design technique you used in your organisation like
+error guessing, Equivalence partition, Boundary value analysis?
+26. Apart from the RTM, how do you ensure that your Test Design coverage is optimum?
+27. Explain Test Design Techniques
+28. What levels of Testing have you worked on?
+
+29. What is Unit Testing?
+30. What is Integration testing?
+31. What is the difference in writing the test cases for Integration testing
+and system testing?
+32. Difference between Unit and Integration Testing
+33.What is User Acceptance Testing?
+34. Explain UAT?
+     
+35. What is a defect?
+36. What is a Latent defect?
+37. The difference between bug, defect, and fault?
+38. What are must present fields while raising a defect?
+39. What are the steps to reproduce while logging a defect?
+40. What are defect tracking tools?
+41. What is a blocker defect?
+42. How do you log the defects in your project?
+43. Difference between bug, error, and defect?
+44 . If you have executed 100 test cases, every test case passed but apart
+from these test cases you found some defect for which the test case is
+not prepared, then how can you report the bug?
+45 . What is a Deferred Defect?
+46 . What is meant by defect triage calls?
+47. What if some defects are not fixed in the current sprint?
+48. Why does the UAT team usually find defects even when you have completed System
+Testing & signed off?
+49. What do you do if a Defect is not reproducible?
+
+
+
+
+
+
+
+
 
