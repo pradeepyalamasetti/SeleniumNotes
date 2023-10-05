@@ -45,4 +45,17 @@ Ans. Regression:
 11. If you have a situation like need to execute all test cases under the project for regression before
 release, how you can manage the situation?
 Ans.
-     
+
+12. What is Smoke Testing?
+13. What is Sanity testing?
+14. What is the Sanity Test, Adhoc Testing & Smoke Testing? When will you use the Above Tests?
+15. Difference between smoke and sanity?
+16. How do you decide on the test case for the smoke test suite?
+17. What is Functional Testing?
+18. What is functional testing and types of functional testing?
+19. What is the defect life cycle?
+20. What is the software development life cycle(SDLC)?
+21. What is the software testing life cycle(STLC)?
+22. In which phase of SDLC, your work starts?
+
+
