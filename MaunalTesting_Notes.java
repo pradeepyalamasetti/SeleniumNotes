@@ -158,6 +158,8 @@ Testing & signed off?
 50. Explain Defect template?
 51. What is the typical defect you raised in your project?    
 52. What is defect density?
+Ans. Divide the total defects by total lines of code.
+     For example: if you had 5 defects and 1,000 lines of code.You would divide 5/1000=0.005 is the result.
 
 
 
