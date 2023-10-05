@@ -47,15 +47,69 @@ release, how you can manage the situation?
 Ans.
 
 12. What is Smoke Testing?
+Ans. 1.Smoke testing performs on initial build.
+     2.smoke testing is done to assure that the acute fucntionalities of program is working fine.
 13. What is Sanity testing?
+Ans. 1.Sanity testing is done on stable build or for introduced new features in software.
+     2.sanity testing is done to check bugs have been fixed after the build.
 14. What is the Sanity Test, Adhoc Testing & Smoke Testing? When will you use the Above Tests?
+Ans. Smoke testing:
+     smoke testing is used to test all over function of the system.
+     Sanity testing:
+     sanity testing is used in the case of only modified or defect fucntions of the system.
+     Adhoc testing:
+     Adohc testing is used when we don't have documentation.
 15. Difference between smoke and sanity?
+     Smoke testing:
+     1.It is also called as subset of accetance testing.
+     2.smoke testing is done to assure that the acute fucntionalities of program is working fine.
+     3.smoke testing is used to test all over function of the system.
+     4.Smoke testing performs on initial build.
+     5.It is performed by both testers and developer.
+     Sanity testing:
+     1.It is also called as subset of regression testing.
+     2.sanity testing is done to check bugs have been fixed after the build.
+     3.sanity testing is used in the case of only modified or defect fucntions of the system.
+     4.Sanity testing is done on stable build or for introduced new features in software.
+     5.It is performed by only testers.
 16. How do you decide on the test case for the smoke test suite?
+Ans.
 17. What is Functional Testing?
+Ans.Checking how the software working as per functional requirement document.
 18. What is functional testing and types of functional testing?
+Ans.Functional testing:
+    Checking how the software working as per functional requirement document.
+    Types of testing:
+    1.Field Display
+    2.Business logic
+      --1.Business logic positive
+     ---2.Business logic negative
+    3.End to End Flow.
+    4.Data validation.
+     
 19. What is the defect life cycle?
+     New: When a new defect is logged and posted for the first time. It is assigned a status as NEW.
+     Assigned: Once the bug is posted by the tester, the lead of the tester approves the bug and assigns the bug to the developer team
+     Open: The developer starts analyzing and works on the defect fix
+     Fixed: When a developer makes a necessary code change and verifies the change, he or she can make bug status as “Fixed.”
+     Pending retest: Once the defect is fixed the developer gives a particular code for retesting the code to the tester. Since the software testing remains 
+     pending from the testers end, the status assigned is “pending retest.”
+     Retest: Tester does the retesting of the code at this stage to check whether the defect is fixed by the developer or not and changes the status to “Re-test.”
+     Verified: The tester re-tests the bug after it got fixed by the developer. If there is no bug detected in the software, then the bug is fixed and the status 
+     assigned is “verified.”
+     Reopen: If the bug persists even after the developer has fixed the bug, the tester changes the status to “reopened”. Once again the bug goes through the 
+     life cycle.
+     Closed: If the bug is no longer exists then tester assigns the status “Closed.” 
+     Duplicate: If the defect is repeated twice or the defect corresponds to the same concept of the bug, the status is changed to “duplicate.”
+     Rejected: If the developer feels the defect is not a genuine defect then it changes the defect to “rejected.”
+     Deferred: If the present bug is not of a prime priority and if it is expected to get fixed in the next release, then status “Deferred” is 
+     assigned to such bugs.
+     Not a bug: If it does not affect the functionality of the application then the status assigned to a bug is “Not a bug”.
+
 20. What is the software development life cycle(SDLC)?
+Ans.     
 21. What is the software testing life cycle(STLC)?
+Ans.
 22. In which phase of SDLC, your work starts?
 
 
