@@ -148,7 +148,9 @@ not prepared, then how can you report the bug?
 48. Why does the UAT team usually find defects even when you have completed System
 Testing & signed off?
 49. What do you do if a Defect is not reproducible?
-
+50. Explain Defect template?
+51. What is the typical defect you raised in your project?    
+52. What is defect density?
 
 
 
