@@ -107,14 +107,22 @@ Ans.Functional testing:
      Not a bug: If it does not affect the functionality of the application then the status assigned to a bug is “Not a bug”.
 
 20. What is the software development life cycle(SDLC)?
-Ans.     
+Ans. 1.Requirement Analysis:
+     In this phase,the project team members will be gather and they analysis the requirement i.e,what software should do and what features it should have.
+     2.Design:
+     In this phase,the system architecture and design are crearted.It invloves high-level architecture.
+     3.Implementation:
+     In this phase,Developer will write the code according to the requirement and design specification.
+     4.Testing:
+     In this phase,Tester will be identify defects,verify that it meets the specified requirement or not.
+     5.Deployment:
+     In this phase,once software testing is done and it ready for production.
 21. What is the software testing life cycle(STLC)?
 Ans.
 22. In which phase of SDLC, your work starts?
 
-23. You find the existing testing process is not up to mark in your current
-organisation. How will you approach your manager to bring changes?
-
+23. You find the existing testing process is not up to mark in your current organisation. How will you approach your manager to bring changes?
+Ans.
 24. Explain testing process followed by your company
 25. What is the Test design technique you used in your organisation like
 error guessing, Equivalence partition, Boundary value analysis?
