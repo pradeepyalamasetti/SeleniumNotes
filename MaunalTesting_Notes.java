@@ -33,6 +33,7 @@ Ans. By Requirement Traceability Matrix is used for the impact analysis. RTM tel
 9. You have 20 bugs, and you need to fix them as well as you need to run the regression. You are the only
    two people in a team. How will you do it, and which one will you prioritise?
 Ans. Which bugs will come under regression test that we will be testing according to the priority.And Two people we will sharing equally.
+     
 10. Difference between Regression and retesting?
 Ans. Regression:
      1.It is know as generic testing.
@@ -43,6 +44,7 @@ Ans. Regression:
      2.Testing again and again to make sure the defect has been fixed or not.
      3.It take less time as it focus only on defect of the application.
 ----->If you want we can give examples for both.
+     
 11. If you have a situation like need to execute all test cases under the project for regression before
 release, how you can manage the situation?
 Ans. Splitting the test cases with the team.
@@ -52,9 +54,11 @@ Ans. Splitting the test cases with the team.
 12. What is Smoke Testing?
 Ans. 1.Smoke testing performs on initial build.
      2.smoke testing is done to assure that the acute fucntionalities of program is working fine.
+     
 13. What is Sanity testing?
 Ans. 1.Sanity testing is done on stable build or for introduced new features in software.
      2.sanity testing is done to check bugs have been fixed after the build.
+     
 14. What is the Sanity Test, Adhoc Testing & Smoke Testing? When will you use the Above Tests?
 Ans. Smoke testing:
      smoke testing is used to test all over function of the system.
@@ -62,6 +66,7 @@ Ans. Smoke testing:
      sanity testing is used in the case of only modified or defect fucntions of the system.
      Adhoc testing:
      Adohc testing is used when we don't have documentation.
+     
 15. Difference between smoke and sanity?
 Ans. Smoke testing:
      1.It is also called as subset of accetance testing.
@@ -75,8 +80,10 @@ Ans. Smoke testing:
      3.sanity testing is used in the case of only modified or defect fucntions of the system.
      4.Sanity testing is done on stable build or for introduced new features in software.
      5.It is performed by only testers.
+     
 16. How do you decide on the test case for the smoke test suite?
 Ans. what ever the test cases are in initial build we will called it as smoke suite.
+     
 17. What is Functional Testing?
 Ans.Checking how the software working as per functional requirement document.
 18. What is functional testing and types of functional testing?
@@ -120,44 +127,83 @@ Ans. 1.Requirement Analysis:
      In this phase,Tester will be identify defects,verify that it meets the specified requirement or not.
      5.Deployment:
      In this phase,once software testing is done and it ready for production.
+     
 21. What is the software testing life cycle(STLC)?
 Ans.
+     
 22. In which phase of SDLC, your work starts?
 Ans.Testing
 23. You find the existing testing process is not up to mark in your current organisation. How will you approach your manager to bring changes?
 Ans.First fall i will go through all the documentation and screen short.I will grather all the information and i will explain the problem to the manager 
      what wrong in the testing process.
+     
 24. Explain testing process followed by your company?
+Ans.
 25. What is the Test design technique you used in your organisation like error guessing, Equivalence partition, Boundary value analysis?
+Ans.
 26. Apart from the RTM, how do you ensure that your Test Design coverage is optimum?
+Ans.
 27. Explain Test Design Techniques
+Ans.
 28. What levels of Testing have you worked on?
 Ans.
 29. What is Unit Testing?
+Ans.
 30. What is Integration testing?
-31. What is the difference in writing the test cases for Integration testing
-and system testing?
-32. Difference between Unit and Integration Testing
+Ans.
+31. What is the difference in writing the test cases for Integration testing and system testing?
+Ans.
+32. Difference between Unit and Integration Testing?
+Ans.
 33.What is User Acceptance Testing?
+Ans.
 34. Explain UAT?
-     
+Ans.    
 35. What is a defect?
+Ans.
 36. What is a Latent defect?
+Ans.
 37. The difference between bug, defect, and fault?
+Ans.
 38. What are must present fields while raising a defect?
+Ans.
 39. What are the steps to reproduce while logging a defect?
+Ans.
 40. What are defect tracking tools?
+Ans.
 41. What is a blocker defect?
+Ans.
 42. How do you log the defects in your project?
+Ans.
 43. Difference between bug, error, and defect?
-44 . If you have executed 100 test cases, every test case passed but apart
-from these test cases you found some defect for which the test case is
+Ans.
+44 . If you have executed 100 test cases, every test case passed but apart from these test cases you found some defect for which the test case is
 not prepared, then how can you report the bug?
+Ans.
 45 . What is a Deferred Defect?
+Ans.
 46 . What is meant by defect triage calls?
+Ans.
 47. What if some defects are not fixed in the current sprint?
+Ans.
 48. Why does the UAT team usually find defects even when you have completed System
-Testing & signed off?
+    Testing & signed off?
+     its wrong question itseems.
+     question may be
+     What are the causes of defects in user acceptance testing (UAT)?
+Ans.In user acceptance testing (UAT), a defect is a problem or discrepancy between the actual behavior of the software and the expected behavior defined in 
+     the requirements. Defects can be identified during UAT when the software is tested by end-users to ensure that it meets their needs and requirements.
+     Examples of defects in UAT include:
+     Incorrect functionality: The software does not perform the intended function as specified in the requirements.
+     User interface issues: The software does not meet the user interface standards and is difficult to use.
+     Performance issues: The software does not perform well under normal usage conditions, such as slow response times, crashes, or errors.
+     Incomplete or missing functionality: The software does not include all the features specified in the requirements.
+     Inconsistent behavior: The software behaves differently in different situations, making it difficult for users to understand how to use it.
+     Security vulnerabilities: The software has security weaknesses that could be exploited by malicious actors.
+     It is important to identify and address defects during UAT so that the software can be improved and refined before it is released to the end-users. 
+     This helps to ensure that the software meets their needs and requirements and provides them with a positive user experience.
+
+
 49. What do you do if a Defect is not reproducible?
 50. Explain Defect template?
 51. What is the typical defect you raised in your project?    
