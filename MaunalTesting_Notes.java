@@ -129,8 +129,21 @@ Ans. 1.Requirement Analysis:
      In this phase,once software testing is done and it ready for production.
      
 21. What is the software testing life cycle(STLC)?
-Ans.
-     
+Ans. 1.Requirement Analysis: Requirement Analysis is the first step of the Software Testing Life Cycle (STLC). In this phase quality assurance team understands 
+     the requirements like what is to be tested.
+     2.Test Planning: Test Planning is the most efficient phase of the software testing life cycle where all testing plans are defined. In this phase manager 
+     of the testing, team calculates the estimated effort and cost for the testing work. This phase gets started once the requirement-gathering phase is completed.
+     3.Test Case Development: The test case development phase gets started once the test planning phase is completed. In this phase testing team notes down 
+     the detailed test cases. The testing team also prepares the required test data for the testing. When the test cases are prepared then they are reviewed 
+     by the quality assurance team.
+     4.Test Environment Setup: Test environment setup is a vital part of the STLC. Basically, the test environment decides the conditions on which software is
+     tested. This is independent activity and can be started along with test case development. In this process, the testing team is not involved. 
+     either the developer or the customer creates the testing environment.
+     5. Test Execution: After the test case development and test environment setup test execution phase gets started. In this phase testing team starts
+     executing test cases based on prepared test cases in the earlier step.
+     6.Test Closure: Test closure is the final stage of the Software Testing Life Cycle (STLC) where all testing-related activities are completed and documented. 
+     The main objective of the test closure stage is to ensure that all testing-related activities have been completed and that the software is ready for release.
+
 22. In which phase of SDLC, your work starts?
 Ans.Testing
 23. You find the existing testing process is not up to mark in your current organisation. How will you approach your manager to bring changes?
