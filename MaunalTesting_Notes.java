@@ -151,35 +151,103 @@ Ans.First fall i will go through all the documentation and screen short.I will g
      what wrong in the testing process.
      
 24. Explain testing process followed by your company?
-Ans.
-25. What is the Test design technique you used in your organisation like error guessing, Equivalence partition, Boundary value analysis?
-Ans.
+Ans. 1.In my organization we will be having KT's on that particular project by onsite team by daily basis on coference call's and we will be getting BRD's 
+     we will go through that and depending on the BRD doc's and usecases we will be finding test scenario's.
+     2.On the other part high level management(PM, TL) they will start preparing Test plan.when the Test plan review and sign off done by client the
+     other side we will be finishing for Test scenario's.These scenarios's will be reviewed by our track lead and depending on his comments 
+     we will do modifications.
+     3.Then after RTM (Requirement Tracebility matrix) is done for Test scenarios'. Here we will check whether we have covered all the scenarios for the 
+     requirements(every requirement will be having unique ID (for ex: i.e: 2.1.3))this is called maping the requirements.
+     4.Then after we start writting test cases. after TL review and signoff will start executing test cases when the buil is deployed in stage environment 
+     (there 3 environments: dev-for developers, stage- for testing, production- client side.).
+     5.In execution stage will be doing smoke testing, system testing. when ever we find bug's will log through Quality center and post that bug to developer's. 
+     when the fix is done on that bug it will reflect in the next build. first will do Re-testing. if the bug is really fixed then put the status 
+     as closed if not re-open it and resend it to developer.
+     6.Then will do Regression Testing(means Rigourously test) the application thoroughly to ensure that fix doesn't have any impact on the other functionalities.
+     7.when all the defects get closed and 100% execution is completed then UAT (User Acceptance Test )is done and get signoff from business and approval 
+     to deploy it in production environment (client side). Thus our job is finished. after sucessful go live. 
+25. What is the Test design technique you used in your organisation like error guessing, Equivalence partition, Boundary value analysis?    
+Ans.Mostly i used error guessing
+     1.error guessing is find bugs based on tester's prior experience.
+     2.we don't follow any specific rules.
+     3.It depends on tester's analytical skills and experience.
 26. Apart from the RTM, how do you ensure that your Test Design coverage is optimum?
 Ans.
 27. Explain Test Design Techniques
-Ans.
+Ans. 1.Boundary Value Analysis (BVA):
+     Boundary Value Analysis (BVA) identifies errors at the input domain’s boundary. A simple example of boundary value analysis would be testing a text box 
+     that requires the user to enter a number between 1 and 10. In this case, the boundary values would be 1 and 10, and we would test with values that are 
+     just above, at, and just below these boundaries.
+     For example, 
+     we would test with 0, 1, 2, 9, 10, and 11. We can expect that errors or defects are most likely to occur at or near the boundary values. 
+     Identifying these issues early can help prevent them from causing problems later in the software development process.
+    2.Equivalence Partitioning (EP):
+     Equivalence Partitioning (EP) is another technique that helps reduce the required test cases. By partitioning test input data into classes with 
+     an equivalent number of data, one can design test cases for each class or partition. This technique ensures that one thoroughly tests the software 
+     while minimizing the required test cases.
+     For example, 
+     if a program requires an input of numbers between 1 and 100, an EP test would include a range of values, such as 1-50 and 51-100, and numbers outside 
+     that range, such as -1 or 101. Testing one value from each partition is sufficient to test all values within that partition.
+    3.Decision Table Testing:
+     Decision Table Testing is a technique that involves designing test cases based on decision tables formulated using different combinations of inputs 
+     and their corresponding outputs based on various conditions and scenarios sticking to other business rules. This technique ensures that we test the 
+     software thoroughly and accurately.
+     For example,
+     if a program offers discounts based on the type of customer and the amount spent, a decision table would list all possible combinations of customer 
+     types and the amount paid to receive a discount. Each cell in the table would specify the value that should be applied. Testers can ensure the program
+     behaves correctly under various scenarios by testing all combinations.
+   4.State Transition Diagrams(STD):
+     State Transition Diagrams(STD) to test software with a finite number of states of different types. A set of rules that define the response to various
+     inputs guides the transition from one state to another. This technique is handy for systems with specific workflows within them.
+     For example,
+     consider an e-commerce website that has different states such as “logged out,” “logged in,” “cart empty,” “cart not empty,” and “order placed.” 
+     The transitions between the states would be triggered by login in and logout, adding the product to the cart, removing the product from the cart,
+     proceeding to checkout, etc. An STD can help visualize and test such complex states and transitions in a system.
+
 28. What levels of Testing have you worked on?
-Ans.
+Ans. system level and system integration level.
 29. What is Unit Testing?
-Ans.
+Ans. 1.unit testing is performed by the developer.
+     2.we are going to test each and every individual module.
+     3.it is also called as white -box testing.
 30. What is Integration testing?
-Ans.
+Ans. 1.performed by developer
+     2.integration testing is combined the individual modules.
+     3.it is aslo called as white box testing.
 31. What is the difference in writing the test cases for Integration testing and system testing?
-Ans.
+Ans. System testing is a type of software testing in which a software product is tested as a whole for the validation of 
+     its functional and non-functional requirements, 
+     whereas integration testing is a testing in which a software product is tested for the interfacing between its different modules that 
+     are interlinked with each other.
+
 32. Difference between Unit and Integration Testing?
-Ans.
+Ans. In unit testing, each module of the software is tested separately. In integration testing, all modules of the software are tested combined.
 33.What is User Acceptance Testing?
-Ans.
+Ans. checking software working as per business requirement documment.
 34. Explain UAT?
-Ans.    
+Ans. UAT- User Acceptance Testing
+     1.checking software working as per business requirement documment.
+     2.User Acceptance Testing (UAT) is the final stage of any software development or change request lifecycle before go-live.
 35. What is a defect?
-Ans.
+Ans. variation between actual result and expected result.
 36. What is a Latent defect?
-Ans.
+Ans. Latent defect is a type of bug which has been residing in current version software application & was not caught in previous releases of the application.
+     Mostly, these types of bugs are unexpected outcome of any corner/edge case scenarios which was executed with some specific set of test data.
+
 37. The difference between bug, defect, and fault?
-Ans.
+Ans. bug:
+     find any mismatch in the application in testing phase.
+     defect:
+     variation between actual result and expected result.
+     fault:
+     fault is an error or defect in a program that causes it to produce incorrect or unexpected results. 
+     
 38. What are must present fields while raising a defect?
-Ans.
+Ans. A defect report consists of Defect ID, Description of the defect, Feature Name, Test Case Name, 
+     Reproducible defect or not, Status of the defect, Severity, and Priority of the defect, Tester Name, 
+     Date of testing of the defect, Build Version in which the defect was found, the Developer to whom the defect has been assigned, 
+     name of the person who has fixed the defect, Screenshots of a defect depicting the flow of the steps, 
+     Fixing the date of a defect, and the person who has approved the defect.
 39. What are the steps to reproduce while logging a defect?
 Ans.
 40. What are defect tracking tools?
@@ -215,8 +283,6 @@ Ans.In user acceptance testing (UAT), a defect is a problem or discrepancy betwe
      Security vulnerabilities: The software has security weaknesses that could be exploited by malicious actors.
      It is important to identify and address defects during UAT so that the software can be improved and refined before it is released to the end-users. 
      This helps to ensure that the software meets their needs and requirements and provides them with a positive user experience.
-
-
 49. What do you do if a Defect is not reproducible?
 50. Explain Defect template?
 51. What is the typical defect you raised in your project?    
