@@ -16,14 +16,15 @@ Ans. 1.time-consuming
      3.Repeating the same task again and again is almost impossiable.
      
 5. Will manual testing end in the future?
-Ans. 
+Ans. No,It will never going to happened because After compeleting Manual testing we will go with automation testing.
      
 6. What is Regression Testing?
 Ans. Regression testing is the process of retesting the software apllication to ensure that new code changes have not affected existing functioanlities.
      
 7. How do you decide on test cases for the regression suite?
-Ans. 
-     
+Ans. Which ever the repetitive test cases ,we can add that test cases for regression suite.
+     For example:
+     In Frame work level multiple user can login.So here we will check with different data will be having different logins.
 8. How do you find the regression scenarios if a defect is fixed?
 Ans. By Requirement Traceability Matrix is used for the impact analysis. RTM tells you the relationship between the features.
      Once you had done retesting after a bug fixes, you need to identify the other affected areas then execute their test cases. 
@@ -31,7 +32,7 @@ Ans. By Requirement Traceability Matrix is used for the impact analysis. RTM tel
      
 9. You have 20 bugs, and you need to fix them as well as you need to run the regression. You are the only
    two people in a team. How will you do it, and which one will you prioritise?
-Ans.    
+Ans. Which bugs will come under regression test that we will be testing according to the priority.And Two people we will sharing equally.
 10. Difference between Regression and retesting?
 Ans. Regression:
      1.It is know as generic testing.
@@ -44,7 +45,9 @@ Ans. Regression:
 ----->If you want we can give examples for both.
 11. If you have a situation like need to execute all test cases under the project for regression before
 release, how you can manage the situation?
-Ans.
+Ans. Splitting the test cases with the team.
+     In regression test we will be testing all the approches like top-down approach,bottom-up approach.
+     we can check random approach by checking integration test.
 
 12. What is Smoke Testing?
 Ans. 1.Smoke testing performs on initial build.
@@ -73,7 +76,7 @@ Ans. Smoke testing:
      4.Sanity testing is done on stable build or for introduced new features in software.
      5.It is performed by only testers.
 16. How do you decide on the test case for the smoke test suite?
-Ans.
+Ans. what ever the test cases are in initial build we will called it as smoke suite.
 17. What is Functional Testing?
 Ans.Checking how the software working as per functional requirement document.
 18. What is functional testing and types of functional testing?
@@ -122,13 +125,14 @@ Ans.
 22. In which phase of SDLC, your work starts?
 Ans.Testing
 23. You find the existing testing process is not up to mark in your current organisation. How will you approach your manager to bring changes?
-Ans.
+Ans.First fall i will go through all the documentation and screen short.I will grather all the information and i will explain the problem to the manager 
+     what wrong in the testing process.
 24. Explain testing process followed by your company?
 25. What is the Test design technique you used in your organisation like error guessing, Equivalence partition, Boundary value analysis?
 26. Apart from the RTM, how do you ensure that your Test Design coverage is optimum?
 27. Explain Test Design Techniques
 28. What levels of Testing have you worked on?
-
+Ans.
 29. What is Unit Testing?
 30. What is Integration testing?
 31. What is the difference in writing the test cases for Integration testing
