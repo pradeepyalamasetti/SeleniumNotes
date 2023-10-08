@@ -166,13 +166,21 @@ Ans. 1.In my organization we will be having KT's on that particular project by o
      6.Then will do Regression Testing(means Rigourously test) the application thoroughly to ensure that fix doesn't have any impact on the other functionalities.
      7.when all the defects get closed and 100% execution is completed then UAT (User Acceptance Test )is done and get signoff from business and approval 
      to deploy it in production environment (client side). Thus our job is finished. after sucessful go live. 
+     
 25. What is the Test design technique you used in your organisation like error guessing, Equivalence partition, Boundary value analysis?    
 Ans.Mostly i used error guessing
      1.error guessing is find bugs based on tester's prior experience.
      2.we don't follow any specific rules.
      3.It depends on tester's analytical skills and experience.
+     
 26. Apart from the RTM, how do you ensure that your Test Design coverage is optimum?
-Ans.
+Ans. Bu using test Design techniques are
+     1.Boundary Value Analysis (BVA)
+     2.Equivalence Partitioning (EP)
+     3.Decision Table Testing
+     4.State Transition Diagrams(STD)
+     5.Test coverage.
+     
 27. Explain Test Design Techniques
 Ans. 1.Boundary Value Analysis (BVA):
      Boundary Value Analysis (BVA) identifies errors at the input domain’s boundary. A simple example of boundary value analysis would be testing a text box 
@@ -206,14 +214,17 @@ Ans. 1.Boundary Value Analysis (BVA):
 
 28. What levels of Testing have you worked on?
 Ans. system level and system integration level.
+     
 29. What is Unit Testing?
 Ans. 1.unit testing is performed by the developer.
      2.we are going to test each and every individual module.
      3.it is also called as white -box testing.
+     
 30. What is Integration testing?
 Ans. 1.performed by developer
      2.integration testing is combined the individual modules.
      3.it is aslo called as white box testing.
+     
 31. What is the difference in writing the test cases for Integration testing and system testing?
 Ans. System testing is a type of software testing in which a software product is tested as a whole for the validation of 
      its functional and non-functional requirements, 
@@ -222,14 +233,18 @@ Ans. System testing is a type of software testing in which a software product is
 
 32. Difference between Unit and Integration Testing?
 Ans. In unit testing, each module of the software is tested separately. In integration testing, all modules of the software are tested combined.
+     
 33.What is User Acceptance Testing?
 Ans. checking software working as per business requirement documment.
+     
 34. Explain UAT?
 Ans. UAT- User Acceptance Testing
      1.checking software working as per business requirement documment.
      2.User Acceptance Testing (UAT) is the final stage of any software development or change request lifecycle before go-live.
+     
 35. What is a defect?
 Ans. variation between actual result and expected result.
+     
 36. What is a Latent defect?
 Ans. Latent defect is a type of bug which has been residing in current version software application & was not caught in previous releases of the application.
      Mostly, these types of bugs are unexpected outcome of any corner/edge case scenarios which was executed with some specific set of test data.
@@ -243,30 +258,93 @@ Ans. bug:
      fault is an error or defect in a program that causes it to produce incorrect or unexpected results. 
      
 38. What are must present fields while raising a defect?
-Ans. A defect report consists of Defect ID, Description of the defect, Feature Name, Test Case Name, 
-     Reproducible defect or not, Status of the defect, Severity, and Priority of the defect, Tester Name, 
-     Date of testing of the defect, Build Version in which the defect was found, the Developer to whom the defect has been assigned, 
-     name of the person who has fixed the defect, Screenshots of a defect depicting the flow of the steps, 
-     Fixing the date of a defect, and the person who has approved the defect.
+Ans. A defect report consists of Defect ID,Defect Description,Version,Action Steps,Expected Result,Actual Result,Severity,Assigned to.
+     
 39. What are the steps to reproduce while logging a defect?
-Ans.
+Ans. Logging a defect, also known as a bug report or issue report, is an essential part of software testing. 
+     Clear and detailed defect reports help developers understand and fix issues efficiently. 
+     Here are the steps to reproduce while logging a defect in software testing:
+     1.Understand the Issue:
+        Before logging a defect, ensure that you thoroughly understand the problem you've encountered. 
+        Reproduce the issue on your end to confirm its existence and gather as much information as possible. 
+        This includes understanding what the expected behavior should be.
+     2.Access the Application:
+       Access the software application or system where the defect was observed. 
+       Use the appropriate login credentials or access paths to replicate the issue.
+     3.Prepare the Test Environment:
+       Ensure that the test environment is set up correctly. 
+       Make sure all necessary software, hardware, and configurations are in place to reproduce the defect accurately.
+     4.Use the Exact Test Data:
+       Input the same data and conditions that triggered the defect originally. 
+       This includes any specific inputs, configurations, or data files necessary to reproduce the issue.
+     5.Record the Steps:
+       Document the exact steps you take to reproduce the defect. 
+       Be precise and clear in your descriptions, providing all necessary details to make it easy for the developer to follow your steps.
+     6.Include the Environment Details:
+       Note the environment details such as the operating system, browser version, hardware specifications, and any relevant software versions. 
+       These details can be crucial for reproducing and diagnosing the issue.
+     7.Capture Screenshots or Recordings:
+       If applicable, take screenshots or screen recordings to visually demonstrate the defect. 
+       Visual evidence can be very helpful for developers to understand the problem quickly.
+     8.Provide Logs and Error Messages:
+       If the application generates error messages or logs, include these in your defect report. 
+       These messages can contain valuable information for identifying the root cause.
+     9.Specify the Expected and Actual Behavior:
+       Clearly state what the expected behavior should be, based on the requirements or design, and describe the actual behavior you observed.
+       Highlight the discrepancy between the two.
+     10. Assign Severity and Priority:
+        Assign a severity level to the defect (e.g., critical, major, minor) based on its impact on the system or users. 
+        Assign a priority (e.g., high, medium, low) based on its importance in the current context.
+     11.Attach Relevant Files:
+        If there are any files, documents, or additional resources related to the defect, attach them to the report for reference.
+     12.Submit the Defect Report:
+        Using the defect tracking or issue management system in your organization, submit the defect report. 
+        Be sure to fill in all required fields and provide all the information you've gathered.
+     13.Communicate Clearly:
+        If needed, communicate with developers, product managers, or other stakeholders to ensure that they understand the defect and its impact.
+     14.Follow Up:
+        Monitor the status of the defect and participate in discussions related to it. Be prepared to provide additional information or 
+        clarify details if requested.
+     15.Verify the Fix:
+        Once the developer resolves the defect, verify the fix by following the same steps to reproduce it. 
+       If the issue is resolved, close the defect report. If not, reopen it with additional information as necessary.
+
+By following these steps, you can create clear and actionable defect reports that facilitate efficient defect resolution in the software development process.
 40. What are defect tracking tools?
-Ans.
+Ans. 1.SpiraTeam	
+     2.Jira Software	
+     3.BugHerd	
+     4.Zoho Projects
+
 41. What is a blocker defect?
-Ans.
+Ans. when they occur tester is not able to test the software further. 
+     For example :
+     if in an application user can perform any function after the login. 
+     If login function is not working then tester is not able to test any further feature in this application.
+
 42. How do you log the defects in your project?
-Ans.
+Ans. Defects are logged in a defect tracking system, along with details such as description, severity, and priority.
 43. Difference between bug, error, and defect?
-Ans.
+Ans. bug:
+     find any mismatch in the application in testing phase.
+     defect:
+     variation between actual result and expected result.
+     error:
+     while writing the code we will be getting error.
+     
 44 . If you have executed 100 test cases, every test case passed but apart from these test cases you found some defect for which the test case is
 not prepared, then how can you report the bug?
 Ans.
 45 . What is a Deferred Defect?
-Ans.
+Ans. if the developer feels that the defect is not of very important priority and it can get fixed in the next releases or 
+     so in such a case, he can change the status of the defect as 'Deferred'.
+     
 46 . What is meant by defect triage calls?
-Ans.
+Ans. Defect triage is a process to prioritize the defects based on severity, risk, frequency of occurrence.
+     
 47. What if some defects are not fixed in the current sprint?
-Ans.
+Ans. If multiple bugs are found and cannot be fixed in the current sprint, then some of them should be carried over to the following sprint.
+     
 48. Why does the UAT team usually find defects even when you have completed System
     Testing & signed off?
      its wrong question itseems.
@@ -283,9 +361,49 @@ Ans.In user acceptance testing (UAT), a defect is a problem or discrepancy betwe
      Security vulnerabilities: The software has security weaknesses that could be exploited by malicious actors.
      It is important to identify and address defects during UAT so that the software can be improved and refined before it is released to the end-users. 
      This helps to ensure that the software meets their needs and requirements and provides them with a positive user experience.
+     
 49. What do you do if a Defect is not reproducible?
+Ans. If the bug is not reproducible, then the testing effort used in finding, analyzing and reporting that particular bug/defect is a total waste.
+     For understanding and reproducing a bug, it is essential to have detailed and properly explained 'Steps to Reproduce', state and environment 
+     in which the bug occurred.
+     
 50. Explain Defect template?
-51. What is the typical defect you raised in your project?    
+Ans. 1. Defect ID:
+        A unique identification number is used to identify the number of defects in the report.
+     2. Defect Description:
+        A detailed description is written about the defect with its module and the source where it was found. 
+     3. Version:
+       Show the current version of the application where the defect was found. 
+     4. Action Steps:
+       It shows the step-by-step action taken by an end user or QA testers that shows results as the defect.    
+     5. Expected Result:
+       Also, QA testers need to identify & show the expected result if everything goes accordingly without any defects, which allows 
+       developers to know the end goals to achieve. It’s a detailed step-by-step explanation of the expected result. 
+     6. Environment:
+       Sometimes the test environment plays a significant role in defects like running applications on different smartphones.
+       While creating a defect report, this template can be used: 
+          Device Type: Hardware & device model
+          OS: Name & version
+          Tester: Name the tester who finds defects
+          Software Version: The software version which will be tested
+          Connection Strength: (3G, 4G, 5G, WiFi)
+          Rate of Reproduction: Number of times the defect has been reproduced
+     7. Actual Result:
+        It covers the results of performing the steps that developers want to achieve. Also, add “Additional details” like defects, sources, 
+        and specific steps so developers can navigate and resolve more effectively.
+     8. Severity:
+        It describes the impact of the defect on the application. Each defect has a different severity level, and it’s important to note it in detail.
+         Levels of Severity: 
+          Low: These bugs can be resolved once and don’t affect the performance again.  
+          Medium: Some minor defects that are easy to resolve and affect less. 
+          High: These bugs can affect the result of the application and need to be resolved. 
+          Critical: In the critical stage, bugs heavily affect the performance and end goal. Like crashing, system freezing, and restarting repeatedly.
+     9.screen shot:
+       attach screen shot.
+     
+51. What is the typical defect you raised in your project? 
+Ans.
+     
 52. What is defect density?
 Ans. Divide the total defects by total lines of code.
      For example: if you had 5 defects and 1,000 lines of code.You would divide 5/1000=0.005 is the result.
