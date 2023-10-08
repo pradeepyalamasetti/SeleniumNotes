@@ -25,6 +25,7 @@ Ans. Regression testing is the process of retesting the software apllication to 
 Ans. Which ever the repetitive test cases ,we can add that test cases for regression suite.
      For example:
      In Frame work level multiple user can login.So here we will check with different data will be having different logins.
+     
 8. How do you find the regression scenarios if a defect is fixed?
 Ans. By Requirement Traceability Matrix is used for the impact analysis. RTM tells you the relationship between the features.
      Once you had done retesting after a bug fixes, you need to identify the other affected areas then execute their test cases. 
@@ -146,6 +147,7 @@ Ans. 1.Requirement Analysis: Requirement Analysis is the first step of the Softw
 
 22. In which phase of SDLC, your work starts?
 Ans.Testing
+     
 23. You find the existing testing process is not up to mark in your current organisation. How will you approach your manager to bring changes?
 Ans.First fall i will go through all the documentation and screen short.I will grather all the information and i will explain the problem to the manager 
      what wrong in the testing process.
@@ -309,7 +311,7 @@ Ans. Logging a defect, also known as a bug report or issue report, is an essenti
         Once the developer resolves the defect, verify the fix by following the same steps to reproduce it. 
        If the issue is resolved, close the defect report. If not, reopen it with additional information as necessary.
 
-By following these steps, you can create clear and actionable defect reports that facilitate efficient defect resolution in the software development process.
+
 40. What are defect tracking tools?
 Ans. 1.SpiraTeam	
      2.Jira Software	
@@ -324,6 +326,7 @@ Ans. when they occur tester is not able to test the software further.
 
 42. How do you log the defects in your project?
 Ans. Defects are logged in a defect tracking system, along with details such as description, severity, and priority.
+     
 43. Difference between bug, error, and defect?
 Ans. bug:
      find any mismatch in the application in testing phase.
@@ -334,7 +337,8 @@ Ans. bug:
      
 44 . If you have executed 100 test cases, every test case passed but apart from these test cases you found some defect for which the test case is
 not prepared, then how can you report the bug?
-Ans.
+Ans. we can do exploratory testing or adhoc testing.
+     
 45 . What is a Deferred Defect?
 Ans. if the developer feels that the defect is not of very important priority and it can get fixed in the next releases or 
      so in such a case, he can change the status of the defect as 'Deferred'.
