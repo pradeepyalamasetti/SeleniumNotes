@@ -412,6 +412,75 @@ Ans.
 Ans. Divide the total defects by total lines of code.
      For example: if you had 5 defects and 1,000 lines of code.You would divide 5/1000=0.005 is the result.
 
+53. What is Build?
+54. What are the types of bugs?
+55. Who decides the priority of bugs?
+56 . What will be the first approach if we get bugs in every build?
+Ans: You can answer the above questions in the following way:
+1. The First step will be to log the bugs.
+2. Will first test the critical and high-priority test cases
+3. One person should start retesting the bugs, and another should start regression.
+Once the 1st guy has finished the retesting of bugs, he can join you in regression.
+4. It seems a deployment issue or the environment of the QA environment is different
+from Prod.
+
+
+57. What is a Bug in Manual Testing?
+58. What is Release?
+59. What is bug leakage?
+60. What is a bug release?
+61. What are the differences between bug leakage and release?
+62. What is “bug leakage?” and what is “bug release?”
+
+63. What is Sprint in agile?
+64. What is a Sprint Backlog?
+65. What is the time limit of a sprint in Agile?
+66. What if a feature is not ready in the current sprint?
+67. What do you do in Sprint after receiving a requirement?
+68. What is a Product backlog?
+
+
+69. Currently which sprint you are working for and how many user stories assigned to you?
+70. What is difference between product backlog and sprint backlog?
+71. What is Agile?
+72. What to do if the Dev team delays an agile user story?
+73. What Agile metrics do you capture in your current project?
+74. What is Agile Methodology?
+75. Advantages of Agile methodology?
+76. What is Agile and how it is different from Water fall model?
+77. What is the User story in Manual Testing?
+78. Explain recent user story you have tested in your project?
+79. What is a Test case?
+80. What is the priority of the test case? How is it decided?
+81. How will you review the test case and how many types are there?
+82. Difference between test case and test scenarios.
+83. What are the preconditions to automate test cases?
+84 . You have been given 100 test cases of how you will start when you
+have given no time limit.
+85 . You have been given 100 test cases of how you will start when you
+have given the time limit.
+86 . How many test cases can you write in a day?
+87 . How many test cases can you execute in a day?
+88 . How will you decide you have enough test cases?
+89 . How do you decide on the test case for the sanity test suite?
+90 . What are the things you consider when you are reviewing test cases?
+91 . What are the base documents to write the test cases?
+92 . How to ensure your test cases are good?
+93 . Write a test case on the water bottle or anything can be asked ?
+94. What’s your approach to converting Manual test cases to Automation scripts?
+95. Explain Test case template
+96. How many test cases did you write for your project?
+97. How you can write test cases in your project?
+98. What is the difference between test scenario & Test case?
+99. What is the Test Scenario?
+100. What is Non-Functional testing?
+101. What is non-functional testing and types of non-functional testing?
+102. What types of testing could you perform on a web-based application?
+103. What types of testing could you perform on a standalone application?
+
+
+     
+
 
 
 
