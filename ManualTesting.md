@@ -397,9 +397,9 @@ what is Scrum? What is scrum
 
 Scrum Terminology
 =====================================================================================================================
-1.User Story      2.Epic        3.Product backlog        4.Sprint/Iteration        5.Sprint planning meeting
-6.Sprint backlog          7.Scrum meeting              8.Sprint retrospective meeting
-9.Story Point                10.Burndown chat
+    1.User Story                2.Epic              3.Product backlog      4.Sprint/Iteration        
+    5.Sprint planning meeting   6.Sprint backlog    7.Scrum meeting        8.Sprint retrospective meeting
+    9.Story Point               10.Burndown chat
 
 ![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/447ba0a2-db48-427f-99b9-604c17ddd538)
 ![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/2e9a70e0-5089-4be8-96a1-5c925e7ddecb)
