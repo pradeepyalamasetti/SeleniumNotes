@@ -451,11 +451,13 @@ How to install and configure Jira Tool?
 -----------------------------------------------------------------------------------------------------------------------------------
 Altassian company develped by ------ jira using throght cloud in ---- 30days and 10 users can use it
 we can create a Jira instance on the cloud so cloud give allocate some space for our working
-Cloud 
-    Pro(Licensed)
-    Free version : 10 users/30days
-Steps
-wwwatlassiancom/software/jira/free ---  Get it Free ---- next -- email id ---- pradeepjira123.altassian.net  ---- Agree ---- skip -- skip -- show( your site is starting up) ---teammates email address(leave) -- continue -- new -- new -- features-- skip --- select Scrum one --- Create project name and key ---- create ---  Homepage of JIRA
+
+  Cloud 
+      Pro(Licensed)
+      Free version : 10 users/30days
+      
+  Steps
+  wwwatlassiancom/software/jira/free ---  Get it Free ---- next -- email id ---- pradeepjira123.altassian.net  ---- Agree ---- skip --     skip -- show( your site is starting up) ---teammates email address(leave) -- continue -- new -- new -- features-- skip --- select        Scrum one --- Create project name and key ---- create ---  Homepage of JIRA
 
 
 
