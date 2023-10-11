@@ -182,234 +182,33 @@ Functional Testing Vs Non-Functional Testing
 Part - 5
 ==========================================================================================================================
 Regression Testing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#images32
 
 Re-Testing
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Re-Testing Vs Regression Testing
-
-
-
-
-
-
-
-
-
-
-
 
 Smoke Vs Sanity Testing
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Smoke Testing VS Sanity Testing
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Exploratory Testing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Monkey / Gorila Testing
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Adhoc Testing 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Adhoc Testing Vs Monkey Testing Vs Exploratory Testing
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Positive Testing
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Negative Testing
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Positive V/s Negative Test Cases
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 End - To - End Testing
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -418,868 +217,122 @@ Globalization and Localization
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 Part 6
+======================================================================================================================
 Test Design Techniques / Test Data Design Techniques / Test Case Design Techniques
-
-
-
-
-
-
-
-
-
-
-
 
 Test Design Techniques
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 Equivalence Class Partition(ECP)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Equivalence Class Partitioning (ECP)
 
 Equivalence Class Partitioning (ECP)
 
 
-
-
-
-
-
-
-Equivalence Class Partitioning (ECP)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Boundary Value Analysis (BVA)
 
 Boundary Value Analysis (BVA)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Boundary Value Analysis (BVA)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Decision Table Example
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 Decision Table Example
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Error Guessing
-
-
-
-
-
-
-
-
-
-
-
 
 
 State Transition
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 State Transition Example
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Part 7
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+==============================================================================================================================
 
 Part 8
+===============================================================================================================================
 Test Plan Contents
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Use Case Test Scenario & Test Case
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Use Case V/s Test Case
 
 
-
-
-
-
-
-
-
-
-
-
 Test scenario V/s Test Case
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Test Suite
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 What is Test Case?
-
-
-
-
-
-
 
 Test Case Contents
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Test Case Template
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Requirement Traceability Matrix(RTM)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Sample RTM
-
-
-
-
-
-
-
-
-
-
-
 
 Test Environment 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Test Execution
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Guildelines For Test Execution
-
-
-
-
-
-
-
-
-
-
 
 
 Defects/ Bugs are Same words
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Defect Report Contents
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Defect Classification
 
-
-
-
-
-
-
-
-
-
 Defect severity
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Defect Priority
-
-
-
-
-
-
-
-
-
-
-
 
 
 High severity priority and low severity priority defects
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 More Examples
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 defect Resolution Types
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Part 9
+============================================================================================================================
 Bug life cycle / Defect life cycle
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Test Cycle Closure
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Test Metrics
 
 Test Metrics
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Test Metrics
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Test Metrics
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 QA/Testing Activities
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 7 Principles of Software Testing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Alige and Srcum
 what is Agile?
 
-
-
-
-
-
-
-
-
-
-
-
-
 Disadvantage
 
-
-
-
-
-
 what is Scrum? What is scrum
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Scrum Terminology
 1.User Story      2.Epic        3.Product backlog        4.Sprint/Iteration        5.Sprint planning meeting
@@ -1287,146 +340,21 @@ Scrum Terminology
 9.Story Point                10.Burndown chat
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 The Agile Scrum Framework at a glance
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Scrun Board
-
-
-
-
-
-
-
-
-
-
 
 Roles and Artefacts and Ceremonies
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Definition of Ready(DoR) & Definition of Done(DoD)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Product Backlog
-
-
-
-
-
-
-
-
-
 
 Sprint Planning
 
 
-
-
-
-
-
-
-
-
-
-
-
 Tasks
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 finished
@@ -1452,28 +380,6 @@ Cloud
     Free version : 10 users/30days
 Steps
 wwwatlassiancom/software/jira/free ---  Get it Free ---- next -- email id ---- pradeepjira123.altassian.net  ---- Agree ---- skip -- skip -- show( your site is starting up) ---teammates email address(leave) -- continue -- new -- new -- features-- skip --- select Scrum one --- Create project name and key ---- create ---  Homepage of JIRA
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1515,18 +421,6 @@ Issue Type : Epic
 Epic Name :OpenCart_Epic_001
 Summary :somethings
 CREATE
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1624,59 +518,7 @@ TASKS : Each and every STORY there are set of developer tasks and tester tasks a
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Create subtask
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1684,33 +526,7 @@ Add QA and Developer task here
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 OC Sprint 1
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1719,33 +535,7 @@ Click on the subtask
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 Change task status here
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 8.Adding sub-tasks to story?
@@ -1762,122 +552,13 @@ Test Management Activities ( Add Zepyre plugin)
 
 How to install zephyr plugin?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 How to create Test case in Jira Manually?
 projects --- opencart --- zephyr ---- search test -- you see output
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 How to import multipl test cases into Jira Tool?
 heading matchs to jira 
 Test case Name -----TC Description ----Test step--- Test Data-----Test Result-----Labels
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Steps:-
@@ -1888,40 +569,6 @@ Discriminator : Test case name change ----
 Import selected sheets : Testcases  ------
 NEXT------
 Mapping jira fields to excel fields -----
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1938,296 +585,4 @@ Reports in Zephyr
 Traceability Matrix
 
 Create New Test Cycle
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
