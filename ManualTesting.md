@@ -183,36 +183,50 @@ Part - 5
 ==========================================================================================================================
 Regression Testing
 #images32
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/b2276a07-bfe5-4cbb-81b7-97dd6038888e)
 
 Re-Testing
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/b1500c3c-a514-4e88-a886-0495c5fa22d9)
 
 Re-Testing Vs Regression Testing
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/ad8f9b57-f221-4844-acd6-82936a0c7f51)
 
 Smoke Vs Sanity Testing
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/96431f59-a50d-4609-a586-a926e4c919bb)
 
 Smoke Testing VS Sanity Testing
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/b5f997d0-cba1-438b-95c6-1e74f91a481b)
 
 Exploratory Testing
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/27cc3ebb-41f7-4bec-863f-f57d08422df5)
 
 Monkey / Gorila Testing
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/28fbca37-725d-4151-8ec3-cad5bd4cdc27)
 
 
 Adhoc Testing 
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/e13b30f0-20bd-48be-a2ff-e55e58fb539b)
 
 Adhoc Testing Vs Monkey Testing Vs Exploratory Testing
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/0bbf1cd4-0d25-4eb4-abae-c0561c226b73)
 
 Positive Testing
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/423486a6-9244-4487-ab70-e7fb05ebdfdc)
 
 Negative Testing
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/d5b188b2-d397-44a4-b677-fdec1896b6ff)
 
 Positive V/s Negative Test Cases
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/36004f14-67f1-42c6-8bed-7183e5d6ed9a)
 
 
 End - To - End Testing
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/f17c0aea-048f-43cd-9817-7dc8e6e534ac)
 
 
 
 Globalization and Localization
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/9fc7f150-5c0f-4c1d-8cfc-83b817175227)
 
 
 
@@ -220,31 +234,44 @@ Globalization and Localization
 Part 6
 ======================================================================================================================
 Test Design Techniques / Test Data Design Techniques / Test Case Design Techniques
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/869eadcc-2e1f-4e72-adce-af66498cb089)
 
 Test Design Techniques
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/d2db676d-a8be-48ad-ab81-4c43a9c162a9)
 
 Equivalence Class Partition(ECP)
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/f82b7cc5-07c2-460c-a455-63965d8e10ce)
 
 Equivalence Class Partitioning (ECP)
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/870c78c6-d8f3-467a-b7b5-f67f62bde171)
 
 Equivalence Class Partitioning (ECP)
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/9e5b8552-31cb-4679-9065-1b687a33448e)
 
 
 Boundary Value Analysis (BVA)
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/28500cac-6ca8-4bc9-be1c-ce09cd02e513)
 
 Boundary Value Analysis (BVA)
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/f6726c21-253b-477d-a834-d1955958d6e8)
 
 Decision Table Example
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/83c6fa7b-6dad-4776-a13c-a3e22510de19)
 
 Decision Table Example
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/55723b59-90f2-4b97-9f58-fea9e0a9aa2c)
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/39fe6b12-6256-417e-b069-03f98d6e7f4b)
 
 Error Guessing
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/5f8d7cea-4867-4753-9307-b9f12ed875cd)
 
 
 State Transition
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/a66b975b-b9fe-403d-ab55-049128d7d2d4)
 
 
 State Transition Example
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/bc502c30-a4cf-473b-9882-f49a7fde8dfe)
 
 
 Part 7
@@ -253,61 +280,85 @@ Part 7
 Part 8
 ===============================================================================================================================
 Test Plan Contents
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/bdbf2182-7237-47d8-85ae-560f5bcc3983)
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/1dd2b195-a3df-4af0-bc6a-1a2fe8c7640d)
 
 Use Case Test Scenario & Test Case
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/4189831a-0acc-43cb-9b5e-b2dd2982098f)
 
 
 Use Case V/s Test Case
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/fb457169-6c2e-4f86-b20f-0b18404995e9)
 
 
 Test scenario V/s Test Case
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/d3b22bfd-c7dd-478d-b3b8-d25e8072b6ce)
 
 
 Test Suite
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/1d9343b3-14cc-4e67-b49b-e02ff23869e8)
 
 
 What is Test Case?
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/1b175353-1ee2-4989-b9d2-c4f05419a8c7)
 
 Test Case Contents
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/7a31aa17-c68d-4b5f-a3f2-8423628ed583)
 
 Test Case Template
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/66b707cb-2aa4-4b39-8227-d68e91b9c75d)
 
 Requirement Traceability Matrix(RTM)
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/a8de0db0-cd1f-4928-8711-eaec2a9a6c6f)
 
 Sample RTM
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/878dd8d9-51e3-48a5-bc20-ee29d7849045)
 
 Test Environment 
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/3cd4ab83-0946-44e3-b9eb-9aeafcd2bd6d)
 
 Test Execution
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/9ab1c93d-d8cf-40f2-a05a-2a2ea960c2ea)
 
 Guildelines For Test Execution
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/c49afb04-f00e-42f3-a5d5-ea3c59fa12fa)
+
 
 
 Defects/ Bugs are Same words
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/48a5b792-ebcc-4ca0-a88e-b0c4f26d2160)
 
 
 Defect Report Contents
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/ef66f070-3142-40bb-b480-06ce2c52f2f2)
 
 
 Defect Classification
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/ccf64942-8956-4862-b581-0c4da6d83c56)
 
 Defect severity
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/631e5f00-adcd-43c6-9379-e9f297529445)
 
 Defect Priority
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/1e8bace5-b5c6-4219-8649-b3bdafe7302d)
 
 
 High severity priority and low severity priority defects
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/4e08506a-b8e8-42ee-8f53-152f6ef9b850)
 
 
 
 More Examples
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/3666b6dc-4c40-4a7e-89b9-9a02e1f5dcd9)
 
 
 defect Resolution Types
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/f75342a5-7f97-47f6-accd-e2d0d208ee9f)
 
 Part 9
 ============================================================================================================================
 Bug life cycle / Defect life cycle
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/93a24755-58ec-443c-b20e-0c43e9df918a)
 
 
 Test Cycle Closure
