@@ -27,187 +27,42 @@ Software Development Life Cycle
 ![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/78d5e3e5-a71f-4bd2-afdf-cc2b5a38e6ca)
 
 
-
-
 Software Development Life Cycle
 #images5
 ![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/bd8e9974-0b26-4113-9dd2-1162f8159d14)
 
-
-
-
-
-
-
-
-
-
+Waterfall Model
+#images6
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/0eb6cbbc-7622-4636-87fc-d001abb6d083)
 
 
 Waterfall Model
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Waterfall Model
-
-
-
-
-
-
-
-
-
-
-
-
+#images7
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/9280d922-cd5e-4465-a4ff-1f4b9fdd5980)
 
 Spiral Model
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#images8
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/74c252b8-b158-4c32-8a40-45ac09a04863)
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/eabb8d2a-eaa5-49f5-bb98-2194f7527e1f)
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/58f588a3-9c4e-4aed-977c-25e335cbf6e7)
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/b6c7dc91-5115-46f5-9a3d-34739b72a83e)
 
 
 
 Prototype Model and mobules
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#images9
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/d36b1a92-4851-4be7-b3f6-35c40bba18cd)
 
 V-Model 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#images10
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/78b6808d-fa0c-4aa6-bedb-adb5b3172d3c)
 
 
 Verification and validation
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#images11
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/d86ae793-dfd0-4909-91ad-22de0a70d27b)
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/4b89acab-7842-469d-a72e-773c77f2bb58)
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/f6987dbe-2e54-4397-929a-e8fa76502b85)
 
 
 Part - 3
