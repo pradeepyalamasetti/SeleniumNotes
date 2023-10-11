@@ -113,306 +113,74 @@ Levels of Testing
 
 Part -4
 =======================================================================================================================
-
 System Testing Types
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#images20
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/ca1bff77-6856-4bb5-a9a5-5e7076e3065c)
 
 
 1.what is GUI Testing?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#images21
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/f65f8eb7-2a57-46c0-8da5-e7f9a96dec1d)
 
 
 
 GUI Testing Checklist 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#images22
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/50e3472b-44a1-45cc-afd2-9ba223fcdded)
 
 
 
 2.Usability Testing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#images23
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/02996f7b-5a61-4bdc-b02c-66fee27c8b48)
 
 
 3.Functional Testing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#images24
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/ad07d423-b712-4dca-a50d-55410e2eaeb7)
 
 
 
 
 1.1object Properties Testing
-
-
-
-
-
+#images25
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/a7ca6526-21f6-4b4a-a59c-517876bb0277)
 
 1.2.Database Testing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#images26
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/cde0bdc8-b5e2-485d-86bd-1011d56963a7)
 
 
 1.3.Error Handling Testing
-
-
-
-
-
-
+#images27
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/09c8a1ba-8f23-4d99-ba26-a9781916ad73)
 
 
 1.4.calculation/Manipulations testing
 1.5.Links
-
-
-
-
-
-
-
-
-
-
-
-
+#images28
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/6cbe70c0-c51b-4e89-958f-d4886106af21)
 
 
 1.6.Cookies and sessions
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#images29
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/fd68b3ac-ebc4-455e-b46f-739af8620cd7)
 
 
 Non-Functional Testing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#images30
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/2324cef9-87bb-4fe8-8a1b-916ee69f9ebb)
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/f0cd6f3c-f593-4bdb-a901-2e309cc95bdd)
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/d420b4f0-f16d-427d-8de0-420eb1033767)
 
 
 Functional Testing Vs Non-Functional Testing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#images31
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/753585f6-0c54-40ef-bbc1-907fd914d4a5)
 
 
 Part - 5
+==========================================================================================================================
 Regression Testing
 
 
