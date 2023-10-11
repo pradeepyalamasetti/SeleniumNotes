@@ -463,22 +463,28 @@ we can create a Jira instance on the cloud so cloud give allocate some space for
 
 Aglie scrum activities
 ===============================================================================================================================
-1.How to create project in jira?
-projects ---- create project --- classic project or next-gen project ---- select --- project name -- create
+  1.How to create project in jira?
+  
+  projects ---- create project --- classic project or next-gen project ---- select --- project name -- create
 
-Dashboards
+  Dashboards
 
-2.How to add users/people in Jira?
-homepage ---- settings ----user management ----emails address of users ---- invite team members 
+  2.How to add users/people in Jira?
+  
+  homepage ---- settings ----user management ----emails address of users ---- invite team members 
 
-Backlog ----- Epic ---- Stories
-Create spint ---- Add stories to the sprint ---- start sprint ----- add tasks for every story
+  Backlog ----- Epic ---- Stories
+  
+  Create spint ---- Add stories to the sprint ---- start sprint ----- add tasks for every story
 
-3.How to create Backlog?   ---- Epic
+  3.How to create Backlog?   ---- Epic
+  
     VERSIONS   and   EPICS
+    
     Backlog ---- projects  ---- opencart(select project)  --- Backlog -- versions -- you see(All issues)
     
-what is  issues ?
+    what is  issues ?
+    
     every object we call it as a issues So don’t think issues is nothing but a bug 
     issuse type  ---- story,epic,task,bug,
 
