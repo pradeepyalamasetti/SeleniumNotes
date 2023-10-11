@@ -68,204 +68,51 @@ Verification and validation
 Part - 3
 ======================================================================================================================
 what is static and Dynamic testing techniques
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#images12
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/bb9d7eb3-f6c7-45ee-b9dc-57266e92ceaf)
 
 Review Walkthrough Inspection
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#images13
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/10931589-27c0-4ecb-bed4-da80a46e1065)
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/4b80528c-e584-4940-a5b7-6db25734db62)
 
 QA Vs QC and QE
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#images14
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/f32cc032-e80f-4e83-ba8f-039ce19b6d89)
 
 QA Vs QC and QE
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#images15
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/abb68cb6-9d23-44d4-9a51-b616031fb4a2)
 
 Levels of Testing
-
-
-
-
-
-
-
-
-
-
-
+#images15
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/c0e64abe-7dc3-4bf1-af59-18444def6d43)
 
 
 1.Unit Testing
-
-
-
-
-
-
-
-
-
-
-
-
-
+#images16
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/05fbce47-916b-4e15-ae5b-432fc19ba709)
 
 
 2.Integration Testing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#images17
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/8dcdad65-fbb7-4811-b226-d8aabda5e982)
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/a3ed7fc1-4bc9-406d-9f59-aa72fc70d3a2)
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/cb169618-9e99-49d2-9d80-0817c223340b)
 
 
 3.System Testing
-
-
-
-
-
-
-
-
-
-
-
-
+#images18
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/b29bc67c-9ce0-4a27-869d-d721922d1bda)
 
 
 4.User Acceptance Testing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#images19
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/e143b144-4e38-4303-9087-c4b24b9aa85a)
 
 
 Part -4
+=======================================================================================================================
 
 System Testing Types
 
