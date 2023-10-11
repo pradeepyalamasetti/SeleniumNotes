@@ -362,68 +362,90 @@ Bug life cycle / Defect life cycle
 
 
 Test Cycle Closure
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/04ce3600-f027-41b7-a96d-92d55d28e593)
 
 
 Test Metrics
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/e8633c23-cec0-4f7e-885a-bd579920aa3c)
 
 Test Metrics
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/a7d87f06-4ce5-49c7-b748-1c72351c6bd4)
 
 
 Test Metrics
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/8ce3f854-9efa-48db-b3c3-111c23fcba6f)
 
 
 QA/Testing Activities
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/c013a075-aa0a-4b9c-abd8-2b53fedbb95a)
 
 
 7 Principles of Software Testing
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/429e20b7-722b-4a03-93cb-d3b723b2493e)
 
 
 Alige and Srcum
+=======================================================================================================================
 what is Agile?
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/73841a6b-feff-43ae-9585-17728aff285e)
 
 Disadvantage
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/ef9b08c8-5ec8-4089-b481-d89e8f8346c4)
 
 what is Scrum? What is scrum
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/fb87b013-06b5-4664-904a-88f37ba10ba6)
 
 Scrum Terminology
+=====================================================================================================================
 1.User Story      2.Epic        3.Product backlog        4.Sprint/Iteration        5.Sprint planning meeting
 6.Sprint backlog          7.Scrum meeting              8.Sprint retrospective meeting
 9.Story Point                10.Burndown chat
 
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/447ba0a2-db48-427f-99b9-604c17ddd538)
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/2e9a70e0-5089-4be8-96a1-5c925e7ddecb)
+
 
 The Agile Scrum Framework at a glance
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/f566edcb-ed41-4d8c-b645-b289988364db)
 
 Scrun Board
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/d26a32f3-61be-4a24-a3bb-30c6cb82e47e)
 
 Roles and Artefacts and Ceremonies
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/600c4f81-0152-4dc0-953e-9bc91b9bfe00)
 
 
 Definition of Ready(DoR) & Definition of Done(DoD)
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/1873b013-53d4-4ab1-9933-f00b8c922641)
 
 Product Backlog
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/be7bdb4d-8210-46cc-bc75-fe824573279c)
 
 Sprint Planning
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/d18ad505-b11d-4a7f-b253-d7e18a354239)
 
 
 Tasks
-
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/6b0eb779-607b-4a08-9bc5-13199182d3e9)
 
 finished
 
 Jira Tool
+==========================================================================================================================
 
-Test Management Tools
-Bug Reporting  or Defects Tracking Tools
+Test Management Tools ----- Bug Reporting  or Defects Tracking Tools
 
 Agile Tools  -- Agile process contains devlopment and test activites 
-    Jira,VersionOne,Teamcity…..
-This is tools is work by develper,tester,product owner 
+                Jira,VersionOne,Teamcity…..
+                This is tools is work by develper,tester,product owner 
 
 Jira -- Agile Management tool
+----------------------------------------------------------------------------------------------------------------------------------
 jira is activities by default but jira we cannot define the test cases bugs
 and everything but we have special plugin called jeff fire and if I install theat particular plugin  within the jira we can also do test mangement activities right we can also define the testcase,report bugs 
 
 How to install and configure Jira Tool?
+-----------------------------------------------------------------------------------------------------------------------------------
 Altassian company develped by jira using throght cloud in 30days and 10 users can use it
 we can create a Jira instance on the cloud so cloud give allocate some space for our working
 Cloud 
@@ -438,6 +460,7 @@ wwwatlassiancom/software/jira/free ---  Get it Free ---- next -- email id ---- p
 
 
 Aglie scrum activities
+===============================================================================================================================
 1.How to create project in jira?
 projects ---- create project --- classic project or next-gen project ---- select --- project name -- create
 
@@ -450,33 +473,33 @@ Backlog ----- Epic ---- Stories
 Create spint ---- Add stories to the sprint ---- start sprint ----- add tasks for every story
 
 3.How to create Backlog?   ---- Epic
-VERSIONS   and   EPICS
-Backlog ---- projects  ---- opencart(select project)  --- Backlog -- versions -- you see(All issues)
+    VERSIONS   and   EPICS
+    Backlog ---- projects  ---- opencart(select project)  --- Backlog -- versions -- you see(All issues)
+    
 what is  issues ?
-every object we call it as a issues So don’t think issues is nothing but a bug 
-issuse type  ---- story,epic,task,bug,
+    every object we call it as a issues So don’t think issues is nothing but a bug 
+    issuse type  ---- story,epic,task,bug,
 
 How to create Version? 
-Backlog -- versions ---- create version 
-Project : Opencart
-Name : Opencartv0001
-Description : somethings
-Start Date : 29/7/2023
-Release Date :30/9/23
-CREATE
+    Backlog -- versions ---- create version 
+    Project : Opencart
+    Name : Opencartv0001
+    Description : somethings
+    Start Date : 29/7/2023
+    Release Date :30/9/23
+    CREATE
 
 How to create EPICS?
-Backlog --- EPICS ---- create epic
-Project : Opencart
-Issue Type : Epic
-Epic Name :OpenCart_Epic_001
-Summary :somethings
-CREATE
-
-
-
+-------------------------------------------------------------------------------------
+    Backlog --- EPICS ---- create epic
+    Project : Opencart
+    Issue Type : Epic
+    Epic Name :OpenCart_Epic_001
+    Summary :somethings
+    CREATE
 
 4.How to create stories in Jira & add story points?
+-----------------------------------------------------------------------------------
 beside the Apps Create Button is here
 click it 
 Project : Opencart(OC)
@@ -537,6 +560,7 @@ CREATE
 
 
 How to add story points ?
+-----------------------------------------------------------------------------------------------------
 Backlog see all stories 
 select one story or click on anyone story
 click on Regstration ----- you see story details
@@ -550,21 +574,26 @@ click on Logout ---- story points : 3
 click on user search products ----- story points : 5
 
 5.Creating sprint in Jira?
+-------------------------------------------------------------------------------------------------------------
 6.Adding user stories to sprint?
 Create sprint  button  ---- Drag to Regstration,Login,Logout.These all are OC Sprint 1
 
 7.Starting sprint?
-Start sprint button
-Sprint Name : OC Sprint 1
-Duration : 2 week
-Start date : 1/8/2023
-End date : 14/8/2023
-Sprint goal : develop and test registration,Login,Logout features..
-START
+-------------------------------------------
+    Start sprint button
+    Sprint Name : OC Sprint 1
+    Duration : 2 week
+    Start date : 1/8/2023
+    End date : 14/8/2023
+    Sprint goal : develop and test registration,Login,Logout features..
+    START
 
 ACTIVE SPRINTS  :   Sprint start this is called scrum board or storyboard we can see the status everything in this.
-TO DO    -------   IN PROGRESS  --------   DONE
-TASKS : Each and every STORY there are set of developer tasks and tester tasks are there.
+                    TO DO    -------   IN PROGRESS  --------   DONE
+        TASKS   :   Each and every STORY there are set of developer tasks and tester tasks are there.
+
+![image](https://github.com/pradeepyalamasetti/SeleniumNotes/assets/105592177/ac5b94c5-2e2b-4615-90d2-b659553ffc98)
+
 
 
 
