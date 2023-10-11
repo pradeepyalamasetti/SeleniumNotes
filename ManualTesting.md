@@ -488,14 +488,14 @@ Aglie scrum activities
     every object we call it as a issues So don’t think issues is nothing but a bug 
     issuse type  ---- story,epic,task,bug,
 
-How to create Version? 
-    Backlog -- versions ---- create version 
-    Project : Opencart
-    Name : Opencartv0001
-    Description : somethings
-    Start Date : 29/7/2023
-    Release Date :30/9/23
-    CREATE
+    How to create Version? 
+          Backlog -- versions ---- create version 
+          Project : Opencart
+          Name : Opencartv0001
+          Description : somethings
+          Start Date : 29/7/2023
+          Release Date :30/9/23
+          CREATE
 
 How to create EPICS?
 -------------------------------------------------------------------------------------
